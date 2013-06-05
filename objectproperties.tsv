@@ -1,0 +1,799 @@
+http://dbpedia.org/ontology/deathPlace	death place	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/Place
+http://dbpedia.org/ontology/birthPlace	birth place	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/Place
+http://dbpedia.org/ontology/wikiPageExternalLink	Link from a Wikipage to an external page		
+http://dbpedia.org/ontology/wikiPageDisambiguates	Wikipage disambiguates		
+http://dbpedia.org/ontology/wikiPageWikiLink	Link from a Wikipage to another Wikipage		
+http://dbpedia.org/ontology/wikiPageRedirects	Wikipage redirect		
+http://dbpedia.org/ontology/thumbnail	thumbnail		
+http://dbpedia.org/ontology/subsequentWork	subsequent work	http://dbpedia.org/ontology/Work	http://dbpedia.org/ontology/Work
+http://dbpedia.org/ontology/influencedBy	influenced by	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/largestCity	largest city	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/party	party	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/PoliticalParty
+http://dbpedia.org/ontology/child	child	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/vicePresident	vice president		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/field	field	http://dbpedia.org/ontology/Artist	
+http://dbpedia.org/ontology/award	award	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/type	type		
+http://dbpedia.org/ontology/restingPlace	resting place	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/Place
+http://dbpedia.org/ontology/governmentType	government type		http://dbpedia.org/ontology/GovernmentType
+http://dbpedia.org/ontology/headquarter	headquarter	http://dbpedia.org/ontology/Organisation	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/class	class	http://dbpedia.org/ontology/MeanOfTransportation	
+http://dbpedia.org/ontology/order	order	http://dbpedia.org/ontology/Species	
+http://dbpedia.org/ontology/place	place	http://dbpedia.org/ontology/MilitaryConflict	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/genre	genre		
+http://dbpedia.org/ontology/predecessor	predecessor		
+http://dbpedia.org/ontology/leaderParty	leader party	http://dbpedia.org/ontology/PopulatedPlace	
+http://dbpedia.org/ontology/foundationPlace	foundation place	http://dbpedia.org/ontology/Organisation	http://dbpedia.org/ontology/City
+http://dbpedia.org/ontology/locationCity	location city	http://dbpedia.org/ontology/Organisation	http://dbpedia.org/ontology/City
+http://dbpedia.org/ontology/formerBandMember	former band member	http://dbpedia.org/ontology/Band	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/firstAppearance	first appearance	http://dbpedia.org/ontology/FictionalCharacter	
+http://dbpedia.org/ontology/board	board	http://dbpedia.org/ontology/Person	
+http://dbpedia.org/ontology/genus	genus	http://dbpedia.org/ontology/Species	
+http://dbpedia.org/ontology/city	city		http://dbpedia.org/ontology/City
+http://dbpedia.org/ontology/daylightSavingTimeZone	daylight saving time zone	http://dbpedia.org/ontology/Place	
+http://dbpedia.org/ontology/team	team		http://dbpedia.org/ontology/SportsTeam
+http://dbpedia.org/ontology/mayor	mayor	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/federalState	federal state	http://dbpedia.org/ontology/Settlement	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/populationPlace	population place	http://dbpedia.org/ontology/EthnicGroup	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/canonizedPlace	canonized place	http://dbpedia.org/ontology/Saint	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/sourceMountain	source mountain		http://dbpedia.org/ontology/Mountain
+http://dbpedia.org/ontology/sourcePosition	source position		http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+http://dbpedia.org/ontology/state	state		http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/vein	vein	http://dbpedia.org/ontology/AnatomicalStructure	http://dbpedia.org/ontology/Vein
+http://dbpedia.org/ontology/currentMember	current member		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/nerve	nerve	http://dbpedia.org/ontology/AnatomicalStructure	http://dbpedia.org/ontology/Nerve
+http://dbpedia.org/ontology/lymph	lymph	http://dbpedia.org/ontology/AnatomicalStructure	http://dbpedia.org/ontology/Lymph
+http://dbpedia.org/ontology/owner	owner		http://dbpedia.org/ontology/Agent
+http://dbpedia.org/ontology/part	part		http://dbpedia.org/ontology/Place
+http://dbpedia.org/ontology/administrativeDistrict	administrative district	http://dbpedia.org/ontology/Settlement	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/regionServed	region served	http://dbpedia.org/ontology/Organisation	http://dbpedia.org/ontology/Place
+http://dbpedia.org/ontology/lowestPlace	lowest place		http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/ceremonialCounty	Ceremonial County	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/commandStructure	command structure	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/MilitaryUnit
+http://dbpedia.org/ontology/secondCommander	second commander	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/fourthCommander	fourth commander	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/sourceConfluencePosition	source confluence position	http://dbpedia.org/ontology/River	http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+http://dbpedia.org/ontology/distributor	distributor		http://dbpedia.org/ontology/Organisation
+http://dbpedia.org/ontology/mergedIntoParty	merged into party	http://dbpedia.org/ontology/PoliticalParty	http://dbpedia.org/ontology/PoliticalParty
+http://dbpedia.org/ontology/europeanAffiliation	european affiliation	http://dbpedia.org/ontology/PoliticalParty	
+http://dbpedia.org/ontology/governmentCountry	government country	http://dbpedia.org/ontology/Island	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/musicFusionGenre	music fusion genre	http://dbpedia.org/ontology/MusicGenre	http://dbpedia.org/ontology/MusicGenre
+http://dbpedia.org/ontology/largestSettlement	largest settlement	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/openingTheme	opening theme	http://dbpedia.org/ontology/TelevisionShow	http://dbpedia.org/ontology/Work
+http://dbpedia.org/ontology/voice	voice	http://dbpedia.org/ontology/TelevisionShow	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/politicalPartyInLegislature	political party in legislature	http://dbpedia.org/ontology/Legislature	http://dbpedia.org/ontology/PoliticalParty
+http://dbpedia.org/ontology/destination	destination	http://dbpedia.org/ontology/Airline	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/whaDraftTeam	wha draft team	http://dbpedia.org/ontology/IceHockeyPlayer	http://dbpedia.org/ontology/HockeyTeam
+http://dbpedia.org/ontology/sport	sport		http://dbpedia.org/ontology/Sport
+http://dbpedia.org/ontology/routeJunction	route junction	http://dbpedia.org/ontology/RouteOfTransportation	http://dbpedia.org/ontology/RouteOfTransportation
+http://dbpedia.org/ontology/locatedInArea	located in area	http://dbpedia.org/ontology/Place	http://dbpedia.org/ontology/Place
+http://dbpedia.org/ontology/memberOfParliament	Member of Parliament		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/jurisdiction	jurisdiction		
+http://dbpedia.org/ontology/creatorOfDish	creator of dish	http://dbpedia.org/ontology/Food	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/twinCountry	twin country	http://dbpedia.org/ontology/Country	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/sourceConfluenceMountain	source confluence mountain	http://dbpedia.org/ontology/River	http://dbpedia.org/ontology/Mountain
+http://dbpedia.org/ontology/album	album		http://dbpedia.org/ontology/Album
+http://dbpedia.org/ontology/saint	saint	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/Saint
+http://dbpedia.org/ontology/march	march	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/MusicalWork
+http://dbpedia.org/ontology/coach	coach		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/house	house	http://dbpedia.org/ontology/Legislature	http://dbpedia.org/ontology/Legislature
+http://dbpedia.org/ontology/unitaryAuthority	unitary authority	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/river	river	http://dbpedia.org/ontology/Place	http://dbpedia.org/ontology/River
+http://dbpedia.org/ontology/head	head	http://dbpedia.org/ontology/EducationalInstitution	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/areaOfSearch	area of search	http://dbpedia.org/ontology/SiteOfSpecialScientificInterest	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/biome	biome		
+http://dbpedia.org/ontology/relatedMeanOfTransportation	related mean of transportation	http://dbpedia.org/ontology/MeanOfTransportation	http://dbpedia.org/ontology/MeanOfTransportation
+http://dbpedia.org/ontology/sales	sales		http://dbpedia.org/ontology/Sales
+http://dbpedia.org/ontology/managingEditor	managing editor	http://dbpedia.org/ontology/Newspaper	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/summerAppearances	summer appearances	http://dbpedia.org/ontology/OlympicResult	http://dbpedia.org/ontology/OlympicResult
+http://dbpedia.org/ontology/winterAppearances	winter appearances	http://dbpedia.org/ontology/OlympicResult	http://dbpedia.org/ontology/OlympicResult
+http://dbpedia.org/ontology/dean	dean	http://dbpedia.org/ontology/EducationalInstitution	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/previousEditor	previous editor	http://dbpedia.org/ontology/Magazine	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/broadcastNetwork	broadcast network	http://dbpedia.org/ontology/Broadcaster	http://dbpedia.org/ontology/BroadcastNetwork
+http://dbpedia.org/ontology/sisterNewspaper	sister newspaper	http://dbpedia.org/ontology/Newspaper	http://dbpedia.org/ontology/Newspaper
+http://dbpedia.org/ontology/congressionalDistrict	congressional district	http://dbpedia.org/ontology/AdministrativeRegion	
+http://dbpedia.org/ontology/homeStadium	home stadium		http://dbpedia.org/ontology/Stadium
+http://dbpedia.org/ontology/rival	rival	http://dbpedia.org/ontology/School	http://dbpedia.org/ontology/School
+http://dbpedia.org/ontology/spokesperson	spokesperson	http://dbpedia.org/ontology/PoliticalParty	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/heir	heir	http://dbpedia.org/ontology/Monarch	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/lowestRegion	lowest region	http://dbpedia.org/ontology/Island	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/guest	guest	http://dbpedia.org/ontology/TelevisionEpisode	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/plant	plant	http://dbpedia.org/ontology/Place	http://dbpedia.org/ontology/Plant
+http://dbpedia.org/ontology/originalStartPoint	original start point	http://dbpedia.org/ontology/Canal	http://dbpedia.org/ontology/Place
+http://dbpedia.org/ontology/sportCountry	sport country	http://dbpedia.org/ontology/Athlete	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/choreographer	choreographer	http://dbpedia.org/ontology/FigureSkater	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/winsAtProTournaments	wins at pro tournaments	http://dbpedia.org/ontology/GolfPlayer	
+http://dbpedia.org/ontology/managementPlace	management place		http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/lowestState	lowest state	http://dbpedia.org/ontology/Island	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/fuel	fuel		
+http://dbpedia.org/ontology/chain	chain	http://dbpedia.org/ontology/Hotel	http://dbpedia.org/ontology/Company
+http://dbpedia.org/ontology/superintendent	superintendent	http://dbpedia.org/ontology/Organisation	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/brand	brand	http://dbpedia.org/ontology/WrestlingEvent	http://dbpedia.org/ontology/TelevisionShow
+http://dbpedia.org/ontology/vicePrimeMinister	vice prime minister		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/aircraftHelicopterObservation	aircraft helicopter observation	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/MeanOfTransportation
+http://dbpedia.org/ontology/fastestDriver	fastest driver	http://dbpedia.org/ontology/GrandPrix	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/fastestDriverTeam	fastest driver team	http://dbpedia.org/ontology/GrandPrix	http://dbpedia.org/ontology/SportsTeam
+http://dbpedia.org/ontology/firstDriverTeam	winning team	http://dbpedia.org/ontology/GrandPrix	http://dbpedia.org/ontology/SportsTeam
+http://dbpedia.org/ontology/thirdDriver	third driver	http://dbpedia.org/ontology/GrandPrix	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/launchVehicle	launch vehicle	http://dbpedia.org/ontology/SpaceMission	
+http://dbpedia.org/ontology/event	event		http://dbpedia.org/ontology/Event
+http://dbpedia.org/ontology/recentWinner	recent winner	http://dbpedia.org/ontology/Race	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/waterwayThroughTunnel	waterway through tunnel	http://dbpedia.org/ontology/WaterwayTunnel	
+http://dbpedia.org/ontology/teachingStaff	teaching staff	http://dbpedia.org/ontology/School	
+http://dbpedia.org/ontology/vicePrincipal	vice principal	http://dbpedia.org/ontology/School	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/capitalCountry	capital country	http://dbpedia.org/ontology/Island	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/formerHighschool	former highschool	http://dbpedia.org/ontology/NationalCollegiateAthleticAssociationAthlete	http://dbpedia.org/ontology/EducationalInstitution
+http://dbpedia.org/ontology/crew	crew	http://dbpedia.org/ontology/Spacecraft	http://dbpedia.org/ontology/SpaceMission
+http://dbpedia.org/ontology/countryWithFirstSatelliteLaunched	country with first satellite launched	http://dbpedia.org/ontology/YearInSpaceflight	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/chef	chef	http://dbpedia.org/ontology/Restaurant	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/film	film	http://dbpedia.org/ontology/FilmFestival	http://dbpedia.org/ontology/Film
+http://dbpedia.org/ontology/philosophicalSchool	philosophicalSchool	http://dbpedia.org/ontology/Person	
+http://dbpedia.org/ontology/notableIdea	notableIdea	http://dbpedia.org/ontology/Person	
+http://dbpedia.org/ontology/nationality	nationality	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/notableWork	notable work	http://dbpedia.org/ontology/Writer	http://dbpedia.org/ontology/Book
+http://dbpedia.org/ontology/previousMission	previous mission	http://dbpedia.org/ontology/SpaceMission	http://dbpedia.org/ontology/SpaceMission
+http://dbpedia.org/ontology/nextMission	next mission	http://dbpedia.org/ontology/SpaceMission	http://dbpedia.org/ontology/SpaceMission
+http://dbpedia.org/ontology/academicAdvisor	academic advisor	http://dbpedia.org/ontology/Scientist	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/restingPlacePosition	resting place position	http://dbpedia.org/ontology/Person	http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+http://dbpedia.org/ontology/recordLabel	record label		http://dbpedia.org/ontology/RecordLabel
+http://dbpedia.org/ontology/stateOfOrigin	state of origin	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/veneratedIn	venerated in	http://dbpedia.org/ontology/Saint	http://dbpedia.org/ontology/Organisation
+http://dbpedia.org/ontology/militaryBranch	branch	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/MilitaryUnit
+http://dbpedia.org/ontology/architecturalStyle	architectural style	http://dbpedia.org/ontology/ArchitecturalStructure	
+http://dbpedia.org/ontology/governingBody	governing body	http://dbpedia.org/ontology/Place	http://dbpedia.org/ontology/Organisation
+http://dbpedia.org/ontology/internationalAffiliation	international affiliation	http://dbpedia.org/ontology/PoliticalParty	
+http://dbpedia.org/ontology/programmingLanguage	programming language	http://dbpedia.org/ontology/Software	
+http://dbpedia.org/ontology/owningCompany	owning company		http://dbpedia.org/ontology/Company
+http://dbpedia.org/ontology/highestPlace	highest place		http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/neighboringMunicipality	neighboring municipality	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/thirdCommander	third commander	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/academicDiscipline	academic discipline	http://dbpedia.org/ontology/AcademicJournal	
+http://dbpedia.org/ontology/rocketFunction	rocket function	http://dbpedia.org/ontology/Rocket	
+http://dbpedia.org/ontology/cinematography	cinematography	http://dbpedia.org/ontology/Film	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/highestRegion	highest region	http://dbpedia.org/ontology/Island	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/lowestMountain	lowest mountain		http://dbpedia.org/ontology/Mountain
+http://dbpedia.org/ontology/capitalRegion	capital region	http://dbpedia.org/ontology/Island	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/governmentRegion	government region	http://dbpedia.org/ontology/Island	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/governmentPosition	government position	http://dbpedia.org/ontology/Island	http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+http://dbpedia.org/ontology/managementPosition	management position		http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+http://dbpedia.org/ontology/firstLeader	firstLeader		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/computingInput	Computing input	http://dbpedia.org/ontology/Software	
+http://dbpedia.org/ontology/programmeFormat	programme format	http://dbpedia.org/ontology/Broadcaster	
+http://dbpedia.org/ontology/pictureFormat	picture format	http://dbpedia.org/ontology/Broadcaster	
+http://dbpedia.org/ontology/formerCoach	former coach	http://dbpedia.org/ontology/FigureSkater	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/beatifiedBy	beatified by	http://dbpedia.org/ontology/Saint	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/aircraftTransport	aircraft transport	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/MeanOfTransportation
+http://dbpedia.org/ontology/routeStartLocation	route start location	http://dbpedia.org/ontology/RouteOfTransportation	http://dbpedia.org/ontology/Place
+http://dbpedia.org/ontology/typeOfElectrification	type of electrification	http://dbpedia.org/ontology/RouteOfTransportation	
+http://dbpedia.org/ontology/parentOrganisation	parent organisation	http://dbpedia.org/ontology/Organisation	http://dbpedia.org/ontology/Organisation
+http://dbpedia.org/ontology/computingMedia	Computing Media	http://dbpedia.org/ontology/Software	
+http://dbpedia.org/ontology/governmentMountain	government mountain	http://dbpedia.org/ontology/Island	http://dbpedia.org/ontology/Mountain
+http://dbpedia.org/ontology/railwayRollingStock	railway rolling stock	http://dbpedia.org/ontology/RouteOfTransportation	
+http://dbpedia.org/ontology/generalManager	general manager	http://dbpedia.org/ontology/SportsTeam	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/nearestCity	nearest city	http://dbpedia.org/ontology/Place	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/owningOrganisation	owning organisation		http://dbpedia.org/ontology/Organisation
+http://dbpedia.org/ontology/firstAscentPerson	person that first ascented a mountain	http://dbpedia.org/ontology/Mountain	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/highestState	highest state	http://dbpedia.org/ontology/Island	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/aircraftAttack	aircraft attack	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/MeanOfTransportation
+http://dbpedia.org/ontology/sourceConfluence	source confluence	http://dbpedia.org/ontology/River	
+http://dbpedia.org/ontology/viceChancellor	vice chancellor		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/designCompany	designer company	http://dbpedia.org/ontology/MeanOfTransportation	http://dbpedia.org/ontology/Company
+http://dbpedia.org/ontology/aircraftBomber	aircraft bomber	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/MeanOfTransportation
+http://dbpedia.org/ontology/aircraftPatrol	aircraft patrol	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/MeanOfTransportation
+http://dbpedia.org/ontology/aircraftRecon	aircraft recon	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/MeanOfTransportation
+http://dbpedia.org/ontology/firstFlight	first flight	http://dbpedia.org/ontology/SpaceShuttle	http://dbpedia.org/ontology/SpaceMission
+http://dbpedia.org/ontology/structuralSystem	structural system	http://dbpedia.org/ontology/Building	
+http://dbpedia.org/ontology/intercommunality	intercommunality		http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/localAuthority	local authority		
+http://dbpedia.org/ontology/royalAnthem	royal anthem		
+http://dbpedia.org/ontology/lowestPosition	lowest position		http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+http://dbpedia.org/ontology/distributingCompany	distributing company	http://dbpedia.org/ontology/RecordLabel	http://dbpedia.org/ontology/Company
+http://dbpedia.org/ontology/associationOfLocalGovernment	association of local government	http://dbpedia.org/ontology/Settlement	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/highwaySystem	highway system	http://dbpedia.org/ontology/Road	
+http://dbpedia.org/ontology/growingGrape	growing grape	http://dbpedia.org/ontology/WineRegion	http://dbpedia.org/ontology/Grape
+http://dbpedia.org/ontology/clubsRecordGoalscorer	clubs record goalscorer	http://dbpedia.org/ontology/SoccerClub	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/riverBranch	branch	http://dbpedia.org/ontology/River	http://dbpedia.org/ontology/River
+http://dbpedia.org/ontology/runningMate	running mate		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/notableWine	notable wine	http://dbpedia.org/ontology/Grape	
+http://dbpedia.org/ontology/winsAtChampionships	wins at championships	http://dbpedia.org/ontology/GolfPlayer	
+http://dbpedia.org/ontology/managementMountain	management mountain		http://dbpedia.org/ontology/Mountain
+http://dbpedia.org/ontology/ruralMunicipality	rural municipality	http://dbpedia.org/ontology/Road	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/denomination	denomination	http://dbpedia.org/ontology/School	
+http://dbpedia.org/ontology/stateDelegate	state delegate		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/beltwayCity	beltway city	http://dbpedia.org/ontology/Road	http://dbpedia.org/ontology/City
+http://dbpedia.org/ontology/secondPopularVote	secondPopularVote		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/aircraftHelicopterUtility	aircraft helicopter utility	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/MeanOfTransportation
+http://dbpedia.org/ontology/firstDriver	first driver	http://dbpedia.org/ontology/GrandPrix	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/firstDriverCountry	first driver country	http://dbpedia.org/ontology/GrandPrix	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/landingVehicle	landing vehicle	http://dbpedia.org/ontology/SpaceMission	http://dbpedia.org/ontology/SpaceMission
+http://dbpedia.org/ontology/firstWinner	first winner	http://dbpedia.org/ontology/Race	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/fastestDriverCountry	fastest driver country	http://dbpedia.org/ontology/GrandPrix	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/lastLaunchRocket	last launch rocket	http://dbpedia.org/ontology/LaunchPad	http://dbpedia.org/ontology/Rocket
+http://dbpedia.org/ontology/educationSystem	education system	http://dbpedia.org/ontology/EducationalInstitution	
+http://dbpedia.org/ontology/countryWithFirstSatellite	country with first satellite	http://dbpedia.org/ontology/YearInSpaceflight	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/countryWithFirstAstronaut	country with first astronaut	http://dbpedia.org/ontology/YearInSpaceflight	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/publisher	publisher	http://dbpedia.org/ontology/Work	http://dbpedia.org/ontology/Company
+http://dbpedia.org/ontology/previousWork	previous work	http://dbpedia.org/ontology/Work	http://dbpedia.org/ontology/Work
+http://dbpedia.org/ontology/era	era		
+http://dbpedia.org/ontology/mainInterest	main interest		
+http://dbpedia.org/ontology/influenced	influenced	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/otherParty	other party	http://dbpedia.org/ontology/OfficeHolder	http://dbpedia.org/ontology/PoliticalParty
+http://dbpedia.org/ontology/successor	successor		
+http://dbpedia.org/ontology/musicComposer	music composer	http://dbpedia.org/ontology/Work	http://dbpedia.org/ontology/MusicalArtist
+http://dbpedia.org/ontology/almaMater	alma mater	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/EducationalInstitution
+http://dbpedia.org/ontology/occupation	occupation	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/PersonFunction
+http://dbpedia.org/ontology/ethnicity	ethnicity	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/EthnicGroup
+http://dbpedia.org/ontology/leaderName	leader name	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/literaryGenre	literary genre	http://dbpedia.org/ontology/WrittenWork	
+http://dbpedia.org/ontology/residence	residence	http://dbpedia.org/ontology/Person	
+http://dbpedia.org/ontology/launchPad	launch pad	http://dbpedia.org/ontology/SpaceMission	http://dbpedia.org/ontology/LaunchPad
+http://dbpedia.org/ontology/crewMember	crew member	http://dbpedia.org/ontology/SpaceMission	http://dbpedia.org/ontology/Astronaut
+http://dbpedia.org/ontology/mediaType	media type	http://dbpedia.org/ontology/Book	
+http://dbpedia.org/ontology/territory	territory	http://dbpedia.org/ontology/MilitaryConflict	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/commander	commander		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/developer	developer		http://dbpedia.org/ontology/Company
+http://dbpedia.org/ontology/computingPlatform	computing platform	http://dbpedia.org/ontology/Software	
+http://dbpedia.org/ontology/cpu	CPU	http://dbpedia.org/ontology/Software	
+http://dbpedia.org/ontology/bandMember	band member	http://dbpedia.org/ontology/Band	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/foundedBy	founded by		http://dbpedia.org/ontology/Agent
+http://dbpedia.org/ontology/keyPerson	key person		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/subsidiary	subsidiary	http://dbpedia.org/ontology/Company	http://dbpedia.org/ontology/Company
+http://dbpedia.org/ontology/deathCause	death cause	http://dbpedia.org/ontology/Person	
+http://dbpedia.org/ontology/education	education	http://dbpedia.org/ontology/Person	
+http://dbpedia.org/ontology/locationCountry	location country		http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/placeOfBurial	place of burial	http://dbpedia.org/ontology/Monarch	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/portrayer	portrayer	http://dbpedia.org/ontology/FictionalCharacter	
+http://dbpedia.org/ontology/lastAppearance	last appearance	http://dbpedia.org/ontology/FictionalCharacter	
+http://dbpedia.org/ontology/department	department	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/sportGoverningBody	sport governing body		
+http://dbpedia.org/ontology/statisticLabel	statistic label	http://dbpedia.org/ontology/BaseballPlayer	
+http://dbpedia.org/ontology/formerTeam	former team	http://dbpedia.org/ontology/Athlete	http://dbpedia.org/ontology/SportsTeam
+http://dbpedia.org/ontology/profession	profession	http://dbpedia.org/ontology/Person	
+http://dbpedia.org/ontology/militaryRank	military rank	http://dbpedia.org/ontology/MilitaryPerson	
+http://dbpedia.org/ontology/riverMouth	river mouth	http://dbpedia.org/ontology/River	http://dbpedia.org/ontology/BodyOfWater
+http://dbpedia.org/ontology/citizenship	citizenship	http://dbpedia.org/ontology/Person	
+http://dbpedia.org/ontology/president	president		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/beatifiedPlace	beatified place	http://dbpedia.org/ontology/Saint	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/canonizedBy	canonized by	http://dbpedia.org/ontology/Saint	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/councilArea	Council area	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/sourcePlace	source place		http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/sourceRegion	source region		http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/mouthPosition	mouth position	http://dbpedia.org/ontology/River	http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+http://dbpedia.org/ontology/lieutenant	lieutenant		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/athletics	athletics	http://dbpedia.org/ontology/University	
+http://dbpedia.org/ontology/significantDesign	significant design	http://dbpedia.org/ontology/Architect	
+http://dbpedia.org/ontology/coverArtist	cover artist	http://dbpedia.org/ontology/Book	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/branchFrom	branch from	http://dbpedia.org/ontology/AnatomicalStructure	http://dbpedia.org/ontology/AnatomicalStructure
+http://dbpedia.org/ontology/precursor	precursor	http://dbpedia.org/ontology/AnatomicalStructure	http://dbpedia.org/ontology/Embryology
+http://dbpedia.org/ontology/instrument	instrument	http://dbpedia.org/ontology/Artist	http://dbpedia.org/ontology/Instrument
+http://dbpedia.org/ontology/translator	translator	http://dbpedia.org/ontology/Work	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/chancellor	chancellor		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/hubAirport	hub airport	http://dbpedia.org/ontology/Airline	http://dbpedia.org/ontology/Airport
+http://dbpedia.org/ontology/equipment	equipment	http://dbpedia.org/ontology/Activity	
+http://dbpedia.org/ontology/architect	architect	http://dbpedia.org/ontology/ArchitecturalStructure	http://dbpedia.org/ontology/Architect
+http://dbpedia.org/ontology/secretaryGeneral	secretary	http://dbpedia.org/ontology/Organisation	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/youthWing	youth wing	http://dbpedia.org/ontology/PoliticalParty	
+http://dbpedia.org/ontology/operatingSystem	operating system	http://dbpedia.org/ontology/Software	
+http://dbpedia.org/ontology/manufacturer	manufacturer		http://dbpedia.org/ontology/Organisation
+http://dbpedia.org/ontology/lieutenancyArea	Lieutenancy area	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/nonFictionSubject	non-fiction subject	http://dbpedia.org/ontology/Book	
+http://dbpedia.org/ontology/launchSite	launch site	http://dbpedia.org/ontology/SpaceMission	http://dbpedia.org/ontology/Building
+http://dbpedia.org/ontology/usedInWar	used in war	http://dbpedia.org/ontology/Weapon	http://dbpedia.org/ontology/MilitaryConflict
+http://dbpedia.org/ontology/nationalAffiliation	national affiliation	http://dbpedia.org/ontology/PoliticalParty	
+http://dbpedia.org/ontology/europeanParliamentGroup	european parliament group	http://dbpedia.org/ontology/PoliticalParty	
+http://dbpedia.org/ontology/derivative	derivative	http://dbpedia.org/ontology/MusicGenre	http://dbpedia.org/ontology/MusicGenre
+http://dbpedia.org/ontology/musicSubgenre	music subgenre	http://dbpedia.org/ontology/MusicGenre	http://dbpedia.org/ontology/MusicGenre
+http://dbpedia.org/ontology/recordedIn	recorded in	http://dbpedia.org/ontology/MusicalWork	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/politicalPartyOfLeader	political party of leader	http://dbpedia.org/ontology/Legislature	http://dbpedia.org/ontology/PoliticalParty
+http://dbpedia.org/ontology/draftTeam	draft team	http://dbpedia.org/ontology/Athlete	http://dbpedia.org/ontology/SportsTeam
+http://dbpedia.org/ontology/governorGeneral	governor general		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/connotation	connotation		
+http://dbpedia.org/ontology/ingredient	ingredient	http://dbpedia.org/ontology/Food	
+http://dbpedia.org/ontology/arrondissement	arrondissement	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/splitFromParty	split from party	http://dbpedia.org/ontology/PoliticalParty	http://dbpedia.org/ontology/PoliticalParty
+http://dbpedia.org/ontology/foundingPerson	founding person	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/routeStart	route start	http://dbpedia.org/ontology/RouteOfTransportation	http://dbpedia.org/ontology/RouteOfTransportation
+http://dbpedia.org/ontology/musicalArtist	musical artist	http://dbpedia.org/ontology/Single	http://dbpedia.org/ontology/MusicalArtist
+http://dbpedia.org/ontology/operatedBy	operated by	http://dbpedia.org/ontology/ArchitecturalStructure	
+http://dbpedia.org/ontology/selection	selection	http://dbpedia.org/ontology/Astronaut	
+http://dbpedia.org/ontology/militaryUnit	military unit	http://dbpedia.org/ontology/MilitaryPerson	http://dbpedia.org/ontology/MilitaryUnit
+http://dbpedia.org/ontology/variantOf	variant or variation		
+http://dbpedia.org/ontology/gameArtist	game artist	http://dbpedia.org/ontology/VideoGame	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/mouthMountain	mouth mountain	http://dbpedia.org/ontology/River	http://dbpedia.org/ontology/Mountain
+http://dbpedia.org/ontology/mouthPlace	mouth place	http://dbpedia.org/ontology/River	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/government	government	http://dbpedia.org/ontology/Island	
+http://dbpedia.org/ontology/governmentPlace	government place	http://dbpedia.org/ontology/Island	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/discoverer	discoverer		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/gameEngine	Game Engine	http://dbpedia.org/ontology/VideoGame	
+http://dbpedia.org/ontology/municipality	municipality		http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/presenter	presenter	http://dbpedia.org/ontology/TelevisionShow	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/principalEngineer	principal engineer	http://dbpedia.org/ontology/Canal	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/riverBranchOf	branch of	http://dbpedia.org/ontology/River	http://dbpedia.org/ontology/River
+http://dbpedia.org/ontology/appointer	appointer		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/significantProject	significant project	http://dbpedia.org/ontology/Architect	
+http://dbpedia.org/ontology/associate	associate		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/childOrganisation	child organisation	http://dbpedia.org/ontology/Organisation	http://dbpedia.org/ontology/Organisation
+http://dbpedia.org/ontology/bodyStyle	body style	http://dbpedia.org/ontology/Automobile	
+http://dbpedia.org/ontology/maintainedBy	maintained by	http://dbpedia.org/ontology/ArchitecturalStructure	
+http://dbpedia.org/ontology/chairperson	chairperson	http://dbpedia.org/ontology/Organisation	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/hasVariant	variant or variation		
+http://dbpedia.org/ontology/debutTeam	debut team	http://dbpedia.org/ontology/Athlete	http://dbpedia.org/ontology/SportsTeam
+http://dbpedia.org/ontology/mainOrgan	main organ	http://dbpedia.org/ontology/Organisation	
+http://dbpedia.org/ontology/countySeat	county seat	http://dbpedia.org/ontology/PopulatedPlace	
+http://dbpedia.org/ontology/firstRace	first race	http://dbpedia.org/ontology/FormulaOneRacer	http://dbpedia.org/ontology/GrandPrix
+http://dbpedia.org/ontology/highschool	highschool		http://dbpedia.org/ontology/School
+http://dbpedia.org/ontology/mountainRange	mountain range	http://dbpedia.org/ontology/Mountain	http://dbpedia.org/ontology/MountainRange
+http://dbpedia.org/ontology/aircraftElectronic	aircraft electronic	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/MeanOfTransportation
+http://dbpedia.org/ontology/sourceConfluenceRegion	source confluence region	http://dbpedia.org/ontology/River	http://dbpedia.org/ontology/Place
+http://dbpedia.org/ontology/automobilePlatform	automobile platform	http://dbpedia.org/ontology/Automobile	http://dbpedia.org/ontology/Automobile
+http://dbpedia.org/ontology/ceo	ceo	http://dbpedia.org/ontology/Organisation	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/aircraftHelicopter	aircraft helicopter	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/MeanOfTransportation
+http://dbpedia.org/ontology/namedAfter	named after	http://dbpedia.org/ontology/SpaceShuttle	
+http://dbpedia.org/ontology/lastFlight	last flight	http://dbpedia.org/ontology/SpaceShuttle	http://dbpedia.org/ontology/SpaceMission
+http://dbpedia.org/ontology/resolution	resolution	http://dbpedia.org/ontology/Software	
+http://dbpedia.org/ontology/powerType	power type	http://dbpedia.org/ontology/MeanOfTransportation	
+http://dbpedia.org/ontology/spacecraft	spacecraft	http://dbpedia.org/ontology/SpaceMission	http://dbpedia.org/ontology/Spacecraft
+http://dbpedia.org/ontology/innervates	innervates	http://dbpedia.org/ontology/Nerve	http://dbpedia.org/ontology/AnatomicalStructure
+http://dbpedia.org/ontology/principal	principal	http://dbpedia.org/ontology/EducationalInstitution	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/winsAtAsia	wins at ASIA	http://dbpedia.org/ontology/GolfPlayer	
+http://dbpedia.org/ontology/winsAtAus	wins at AUS	http://dbpedia.org/ontology/GolfPlayer	
+http://dbpedia.org/ontology/winsAtJapan	wins at japan	http://dbpedia.org/ontology/GolfPlayer	
+http://dbpedia.org/ontology/winsAtOtherTournaments	wins at other tournaments	http://dbpedia.org/ontology/GolfPlayer	
+http://dbpedia.org/ontology/winsAtPGA	wins at pga	http://dbpedia.org/ontology/GolfPlayer	
+http://dbpedia.org/ontology/distributingLabel	distributing label	http://dbpedia.org/ontology/RecordLabel	http://dbpedia.org/ontology/RecordLabel
+http://dbpedia.org/ontology/chairLabel	chair label		
+http://dbpedia.org/ontology/showJudge	showJudge	http://dbpedia.org/ontology/TelevisionShow	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/storyEditor	story editor	http://dbpedia.org/ontology/TelevisionShow	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/currentPartner	current partner	http://dbpedia.org/ontology/FigureSkater	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/wineRegion	wine region	http://dbpedia.org/ontology/Grape	http://dbpedia.org/ontology/WineRegion
+http://dbpedia.org/ontology/component	component	http://dbpedia.org/ontology/Brain	http://dbpedia.org/ontology/AnatomicalStructure
+http://dbpedia.org/ontology/metropolitanBorough	metropolitan borough	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/constructionMaterial	construction material	http://dbpedia.org/ontology/ArchitecturalStructure	
+http://dbpedia.org/ontology/startPoint	start point	http://dbpedia.org/ontology/Canal	http://dbpedia.org/ontology/Place
+http://dbpedia.org/ontology/hasJunctionWith	has junction with	http://dbpedia.org/ontology/Canal	http://dbpedia.org/ontology/Canal
+http://dbpedia.org/ontology/management	management		
+http://dbpedia.org/ontology/jointCommunity	joint community	http://dbpedia.org/ontology/Settlement	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/schoolBoard	school board	http://dbpedia.org/ontology/School	
+http://dbpedia.org/ontology/chiefEditor	chief editor	http://dbpedia.org/ontology/Work	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/incumbent	incumbent		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/servingRailwayLine	serving railway line	http://dbpedia.org/ontology/Station	
+http://dbpedia.org/ontology/university	university	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/EducationalInstitution
+http://dbpedia.org/ontology/homeArena	home arena		http://dbpedia.org/ontology/Arena
+http://dbpedia.org/ontology/isPartOfWineRegion	is part of wine region	http://dbpedia.org/ontology/WineRegion	http://dbpedia.org/ontology/WineRegion
+http://dbpedia.org/ontology/drainsFrom	drains from	http://dbpedia.org/ontology/AnatomicalStructure	http://dbpedia.org/ontology/AnatomicalStructure
+http://dbpedia.org/ontology/authority	authority		
+http://dbpedia.org/ontology/legalForm	legal form	http://dbpedia.org/ontology/Organisation	
+http://dbpedia.org/ontology/winsAtLPGA	wins at LPGA	http://dbpedia.org/ontology/GolfPlayer	
+http://dbpedia.org/ontology/voiceType	voice type	http://dbpedia.org/ontology/Artist	
+http://dbpedia.org/ontology/subsequentInfrastructure	subsequent infrastructure	http://dbpedia.org/ontology/Infrastructure	http://dbpedia.org/ontology/Infrastructure
+http://dbpedia.org/ontology/previousInfrastructure	previous infrastructure	http://dbpedia.org/ontology/Infrastructure	http://dbpedia.org/ontology/Infrastructure
+http://dbpedia.org/ontology/engineType	engine type	http://dbpedia.org/ontology/MeanOfTransportation	
+http://dbpedia.org/ontology/comparable	comparable	http://dbpedia.org/ontology/Rocket	http://dbpedia.org/ontology/Rocket
+http://dbpedia.org/ontology/officerInCharge	officer in charge	http://dbpedia.org/ontology/University	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/map	map	http://dbpedia.org/ontology/Place	
+http://dbpedia.org/ontology/promotion	promotion	http://dbpedia.org/ontology/WrestlingEvent	
+http://dbpedia.org/ontology/availableSmartCard	available smart card	http://dbpedia.org/ontology/Station	
+http://dbpedia.org/ontology/fuelSystem	fuel system	http://dbpedia.org/ontology/AutomobileEngine	
+http://dbpedia.org/ontology/winsAtChallenges	wins at challenges	http://dbpedia.org/ontology/GolfPlayer	
+http://dbpedia.org/ontology/pastMember	past member		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/poleDriver	pole driver	http://dbpedia.org/ontology/GrandPrix	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/poleDriverTeam	pole driver team	http://dbpedia.org/ontology/GrandPrix	http://dbpedia.org/ontology/SportsTeam
+http://dbpedia.org/ontology/secondTeam	second team	http://dbpedia.org/ontology/GrandPrix	http://dbpedia.org/ontology/SportsTeam
+http://dbpedia.org/ontology/thirdTeam	third team	http://dbpedia.org/ontology/GrandPrix	http://dbpedia.org/ontology/SportsTeam
+http://dbpedia.org/ontology/nobelLaureates	nobel laureates	http://dbpedia.org/ontology/School	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/prospectTeam	prospect team	http://dbpedia.org/ontology/IceHockeyPlayer	http://dbpedia.org/ontology/HockeyTeam
+http://dbpedia.org/ontology/subregion	subregion	http://dbpedia.org/ontology/WineRegion	http://dbpedia.org/ontology/WineRegion
+http://dbpedia.org/ontology/varietals	varietals	http://dbpedia.org/ontology/WineRegion	
+http://dbpedia.org/ontology/blockAlloy	block alloy	http://dbpedia.org/ontology/AutomobileEngine	
+http://dbpedia.org/ontology/headAlloy	head alloy	http://dbpedia.org/ontology/AutomobileEngine	
+http://dbpedia.org/ontology/coolingSystem	cooling system	http://dbpedia.org/ontology/AutomobileEngine	
+http://dbpedia.org/ontology/oilSystem	oil system	http://dbpedia.org/ontology/AutomobileEngine	
+http://dbpedia.org/ontology/schoolPatron	school patron	http://dbpedia.org/ontology/School	
+http://dbpedia.org/ontology/flagBearer	flag bearer	http://dbpedia.org/ontology/OlympicResult	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/secondDriverCountry	second driver country	http://dbpedia.org/ontology/GrandPrix	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/rebuilder	rebuilder	http://dbpedia.org/ontology/MeanOfTransportation	
+http://dbpedia.org/ontology/associatedRocket	associated rocket	http://dbpedia.org/ontology/LaunchPad	http://dbpedia.org/ontology/Rocket
+http://dbpedia.org/ontology/firstLaunchRocket	first launch rocket	http://dbpedia.org/ontology/LaunchPad	http://dbpedia.org/ontology/Rocket
+http://dbpedia.org/ontology/vicePrincipalLabel	vice principal label	http://dbpedia.org/ontology/School	
+http://dbpedia.org/ontology/religiousHeadLabel	religious head label	http://dbpedia.org/ontology/School	
+http://dbpedia.org/ontology/leftChild	left child	http://dbpedia.org/ontology/Island	http://dbpedia.org/ontology/Island
+http://dbpedia.org/ontology/rightChild	right child	http://dbpedia.org/ontology/Island	http://dbpedia.org/ontology/Island
+http://dbpedia.org/ontology/openingFilm	opening film	http://dbpedia.org/ontology/FilmFestival	http://dbpedia.org/ontology/Film
+http://dbpedia.org/ontology/closingFilm	closing film	http://dbpedia.org/ontology/FilmFestival	http://dbpedia.org/ontology/Film
+http://dbpedia.org/ontology/maidenFlightRocket	maiden flight rocket	http://dbpedia.org/ontology/YearInSpaceflight	http://dbpedia.org/ontology/Rocket
+http://dbpedia.org/ontology/countryWithFirstSpaceflight	country with first spaceflight	http://dbpedia.org/ontology/YearInSpaceflight	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/organSystem	organ system	http://dbpedia.org/ontology/AnatomicalStructure	http://dbpedia.org/ontology/AnatomicalStructure
+http://dbpedia.org/ontology/winsAtNWIDE	wins at NWIDE	http://dbpedia.org/ontology/GolfPlayer	
+http://dbpedia.org/ontology/author	author	http://dbpedia.org/ontology/Work	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/region	region		http://dbpedia.org/ontology/Place
+http://dbpedia.org/ontology/country	country		http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/language	language		http://dbpedia.org/ontology/Language
+http://dbpedia.org/ontology/capital	capital	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/City
+http://dbpedia.org/ontology/spouse	spouse	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/religion	religion		
+http://dbpedia.org/ontology/battle	battle		http://dbpedia.org/ontology/MilitaryConflict
+http://dbpedia.org/ontology/director	director		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/producer	producer		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/writer	writer	http://dbpedia.org/ontology/Work	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/starring	starring	http://dbpedia.org/ontology/Work	http://dbpedia.org/ontology/Actor
+http://dbpedia.org/ontology/doctoralAdvisor	doctoral advisor	http://dbpedia.org/ontology/Scientist	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/doctoralStudent	doctoral student	http://dbpedia.org/ontology/Scientist	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/knownFor	known for	http://dbpedia.org/ontology/Person	
+http://dbpedia.org/ontology/composer	composer		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/anthem	anthem	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/Work
+http://dbpedia.org/ontology/currency	currency		http://dbpedia.org/ontology/Currency
+http://dbpedia.org/ontology/officialLanguage	official language	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/Language
+http://dbpedia.org/ontology/ethnicGroup	ethnic group	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/EthnicGroup
+http://dbpedia.org/ontology/booster	booster	http://dbpedia.org/ontology/SpaceMission	http://dbpedia.org/ontology/Rocket
+http://dbpedia.org/ontology/kingdom	kingdom	http://dbpedia.org/ontology/Species	
+http://dbpedia.org/ontology/phylum	phylum	http://dbpedia.org/ontology/Species	
+http://dbpedia.org/ontology/family	family	http://dbpedia.org/ontology/Species	
+http://dbpedia.org/ontology/designer	designer		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/training	training	http://dbpedia.org/ontology/Artist	http://dbpedia.org/ontology/EducationalInstitution
+http://dbpedia.org/ontology/movement	movement	http://dbpedia.org/ontology/Artist	
+http://dbpedia.org/ontology/parent	parent	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/isPartOf	is part of		
+http://dbpedia.org/ontology/timeZone	time zone	http://dbpedia.org/ontology/Place	
+http://dbpedia.org/ontology/spokenIn	spoken in	http://dbpedia.org/ontology/Language	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/languageFamily	family	http://dbpedia.org/ontology/Language	
+http://dbpedia.org/ontology/hometown	home town	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/Settlement
+http://dbpedia.org/ontology/location	location		http://dbpedia.org/ontology/Place
+http://dbpedia.org/ontology/industry	industry	http://dbpedia.org/ontology/Company	
+http://dbpedia.org/ontology/product	product	http://dbpedia.org/ontology/Organisation	
+http://dbpedia.org/ontology/parentCompany	parent company		http://dbpedia.org/ontology/Company
+http://dbpedia.org/ontology/relative	relative	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/associatedBand	associated band		http://dbpedia.org/ontology/Band
+http://dbpedia.org/ontology/associatedMusicalArtist	associated musical artist		http://dbpedia.org/ontology/MusicalArtist
+http://dbpedia.org/ontology/creator	creator	http://dbpedia.org/ontology/Work	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/division	division		
+http://dbpedia.org/ontology/personFunction	person function		http://dbpedia.org/ontology/PersonFunction
+http://dbpedia.org/ontology/binomialAuthority	binomial authority	http://dbpedia.org/ontology/Species	
+http://dbpedia.org/ontology/archipelago	archipelago	http://dbpedia.org/ontology/Atoll	
+http://dbpedia.org/ontology/majorIsland	major island	http://dbpedia.org/ontology/Island	http://dbpedia.org/ontology/Island
+http://dbpedia.org/ontology/capitalPosition	capital position	http://dbpedia.org/ontology/Island	http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+http://dbpedia.org/ontology/leader	leader		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/similar	similar		
+http://dbpedia.org/ontology/district	district		http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/monarch	monarch		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/sourceCountry	source country		http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/origin	origin		http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/gender	gender		
+http://dbpedia.org/ontology/ideology	ideology	http://dbpedia.org/ontology/Agent	http://dbpedia.org/ontology/Ideology
+http://dbpedia.org/ontology/species	species	http://dbpedia.org/ontology/Species	
+http://dbpedia.org/ontology/series	series		
+http://dbpedia.org/ontology/majorShrine	major shrine	http://dbpedia.org/ontology/Saint	
+http://dbpedia.org/ontology/mouthCountry	mouth country	http://dbpedia.org/ontology/River	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/leftTributary	left tributary	http://dbpedia.org/ontology/River	http://dbpedia.org/ontology/River
+http://dbpedia.org/ontology/rightTributary	right tributary	http://dbpedia.org/ontology/River	http://dbpedia.org/ontology/River
+http://dbpedia.org/ontology/relation	relation	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/provost	provost	http://dbpedia.org/ontology/University	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/campus	campus	http://dbpedia.org/ontology/University	
+http://dbpedia.org/ontology/affiliation	affiliation	http://dbpedia.org/ontology/Organisation	http://dbpedia.org/ontology/Organisation
+http://dbpedia.org/ontology/executiveProducer	executive producer		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/company	company		http://dbpedia.org/ontology/Organisation
+http://dbpedia.org/ontology/channel	channel	http://dbpedia.org/ontology/TelevisionShow	http://dbpedia.org/ontology/Broadcaster
+http://dbpedia.org/ontology/leaderFunction	leaderFunction	http://dbpedia.org/ontology/Organisation	http://dbpedia.org/ontology/PersonFunction
+http://dbpedia.org/ontology/person	person	http://dbpedia.org/ontology/PersonFunction	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/domain	domain	http://dbpedia.org/ontology/Species	
+http://dbpedia.org/ontology/significantBuilding	significant building	http://dbpedia.org/ontology/Architect	http://dbpedia.org/ontology/Building
+http://dbpedia.org/ontology/employer	employer	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/Organisation
+http://dbpedia.org/ontology/license	license	http://dbpedia.org/ontology/Work	
+http://dbpedia.org/ontology/branchTo	branch to	http://dbpedia.org/ontology/AnatomicalStructure	http://dbpedia.org/ontology/AnatomicalStructure
+http://dbpedia.org/ontology/supplies	supplies	http://dbpedia.org/ontology/Artery	http://dbpedia.org/ontology/AnatomicalStructure
+http://dbpedia.org/ontology/languageRegulator	language regulator or academy		http://dbpedia.org/ontology/Language
+http://dbpedia.org/ontology/ground	ground	http://dbpedia.org/ontology/SoccerClub	http://dbpedia.org/ontology/Place
+http://dbpedia.org/ontology/chairman	chairman		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/manager	manager	http://dbpedia.org/ontology/SoccerClub	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/league	league		http://dbpedia.org/ontology/SportsLeague
+http://dbpedia.org/ontology/season	season	http://dbpedia.org/ontology/SoccerClub	
+http://dbpedia.org/ontology/artery	artery	http://dbpedia.org/ontology/AnatomicalStructure	http://dbpedia.org/ontology/Artery
+http://dbpedia.org/ontology/operator	operator	http://dbpedia.org/ontology/Infrastructure	http://dbpedia.org/ontology/Organisation
+http://dbpedia.org/ontology/primeMinister	prime minister		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/isoCodeRegion	ISO region code	http://dbpedia.org/ontology/Settlement	
+http://dbpedia.org/ontology/targetAirport	target airport	http://dbpedia.org/ontology/Airline	http://dbpedia.org/ontology/Airport
+http://dbpedia.org/ontology/lounge	lounge	http://dbpedia.org/ontology/Airline	
+http://dbpedia.org/ontology/alliance	alliance	http://dbpedia.org/ontology/Airline	
+http://dbpedia.org/ontology/related	related		
+http://dbpedia.org/ontology/canton	canton	http://dbpedia.org/ontology/Settlement	http://dbpedia.org/ontology/Settlement
+http://dbpedia.org/ontology/twinCity	twin city	http://dbpedia.org/ontology/Settlement	http://dbpedia.org/ontology/Settlement
+http://dbpedia.org/ontology/colour	colour		http://dbpedia.org/ontology/Colour
+http://dbpedia.org/ontology/province	province		http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/principalArea	principal area	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/notableCommander	notable commander	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/editor	editor		http://dbpedia.org/ontology/Agent
+http://dbpedia.org/ontology/musicBy	music by	http://dbpedia.org/ontology/Musical	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/lyrics	lyrics	http://dbpedia.org/ontology/Musical	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/basedOn	based on	http://dbpedia.org/ontology/Work	http://dbpedia.org/ontology/Work
+http://dbpedia.org/ontology/deputy	deputy		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/source	source		
+http://dbpedia.org/ontology/countryOrigin	country origin	http://dbpedia.org/ontology/Rocket	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/premierePlace	premiere place	http://dbpedia.org/ontology/Play	
+http://dbpedia.org/ontology/originalLanguage	original language	http://dbpedia.org/ontology/Work	http://dbpedia.org/ontology/Language
+http://dbpedia.org/ontology/stylisticOrigin	stylistic origin	http://dbpedia.org/ontology/MusicGenre	http://dbpedia.org/ontology/MusicGenre
+http://dbpedia.org/ontology/editing	editing	http://dbpedia.org/ontology/Film	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/highestPosition	highest position		http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+http://dbpedia.org/ontology/capitalMountain	capital mountain	http://dbpedia.org/ontology/Island	http://dbpedia.org/ontology/Mountain
+http://dbpedia.org/ontology/capitalPlace	capital place	http://dbpedia.org/ontology/Island	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/border	border	http://dbpedia.org/ontology/Island	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/governor	governor		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/artist	artist	http://dbpedia.org/ontology/MusicalWork	
+http://dbpedia.org/ontology/network	network	http://dbpedia.org/ontology/Broadcaster	http://dbpedia.org/ontology/Broadcaster
+http://dbpedia.org/ontology/format	format		
+http://dbpedia.org/ontology/orogeny	orogeny		
+http://dbpedia.org/ontology/category	category		
+http://dbpedia.org/ontology/regionalLanguage	regional language	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/Language
+http://dbpedia.org/ontology/isPartOfMilitaryConflict	is part of military conflict	http://dbpedia.org/ontology/MilitaryConflict	http://dbpedia.org/ontology/MilitaryConflict
+http://dbpedia.org/ontology/secondLeader	secondLeader		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/narrator	narrator	http://dbpedia.org/ontology/Film	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/managerClub	manager club	http://dbpedia.org/ontology/SoccerPlayer	http://dbpedia.org/ontology/SportsTeam
+http://dbpedia.org/ontology/broadcastArea	broadcast area	http://dbpedia.org/ontology/Broadcaster	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/sisterStation	sister station	http://dbpedia.org/ontology/Broadcaster	http://dbpedia.org/ontology/Broadcaster
+http://dbpedia.org/ontology/routeEnd	route end	http://dbpedia.org/ontology/RouteOfTransportation	http://dbpedia.org/ontology/RouteOfTransportation
+http://dbpedia.org/ontology/musicalBand	musical band	http://dbpedia.org/ontology/Single	http://dbpedia.org/ontology/Band
+http://dbpedia.org/ontology/parentMountainPeak	parent mountain peak	http://dbpedia.org/ontology/Mountain	http://dbpedia.org/ontology/Mountain
+http://dbpedia.org/ontology/garrison	garrison	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/aircraftFighter	aircraft fighter	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/MeanOfTransportation
+http://dbpedia.org/ontology/builder	builder		
+http://dbpedia.org/ontology/county	county		http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/partner	partner	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/routeEndLocation	route end location	http://dbpedia.org/ontology/RouteOfTransportation	http://dbpedia.org/ontology/Place
+http://dbpedia.org/ontology/mission	mission	http://dbpedia.org/ontology/Astronaut	http://dbpedia.org/ontology/SpaceMission
+http://dbpedia.org/ontology/notableStudent	notable student	http://dbpedia.org/ontology/Scientist	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/outflow	outflow	http://dbpedia.org/ontology/Lake	http://dbpedia.org/ontology/River
+http://dbpedia.org/ontology/illustrator	illustrator	http://dbpedia.org/ontology/Book	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/mouthRegion	mouth region	http://dbpedia.org/ontology/River	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/tenant	tenant	http://dbpedia.org/ontology/Building	http://dbpedia.org/ontology/Organisation
+http://dbpedia.org/ontology/animal	animal		http://dbpedia.org/ontology/Animal
+http://dbpedia.org/ontology/crosses	crosses	http://dbpedia.org/ontology/Bridge	http://dbpedia.org/ontology/River
+http://dbpedia.org/ontology/usingCountry	using country	http://dbpedia.org/ontology/Currency	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/inflow	inflow	http://dbpedia.org/ontology/Lake	http://dbpedia.org/ontology/River
+http://dbpedia.org/ontology/committeeInLegislature	committee in legislature	http://dbpedia.org/ontology/Legislature	
+http://dbpedia.org/ontology/isPartOfAnatomicalStructure	is part of anatomical structure	http://dbpedia.org/ontology/Brain	http://dbpedia.org/ontology/AnatomicalStructure
+http://dbpedia.org/ontology/engineer	engineer		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/service	service	http://dbpedia.org/ontology/Company	
+http://dbpedia.org/ontology/sourceConfluencePlace	source confluence place	http://dbpedia.org/ontology/River	http://dbpedia.org/ontology/Place
+http://dbpedia.org/ontology/aircraftInterceptor	aircraft interceptor	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/MeanOfTransportation
+http://dbpedia.org/ontology/engine	engine	http://dbpedia.org/ontology/Automobile	http://dbpedia.org/ontology/AutomobileEngine
+http://dbpedia.org/ontology/firstWin	first win	http://dbpedia.org/ontology/FormulaOneRacer	http://dbpedia.org/ontology/GrandPrix
+http://dbpedia.org/ontology/lastWin	last win	http://dbpedia.org/ontology/FormulaOneRacer	http://dbpedia.org/ontology/GrandPrix
+http://dbpedia.org/ontology/lastRace	last race	http://dbpedia.org/ontology/FormulaOneRacer	http://dbpedia.org/ontology/GrandPrix
+http://dbpedia.org/ontology/borough	borough	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/patron	patron	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/college	college		http://dbpedia.org/ontology/College
+http://dbpedia.org/ontology/formerPartner	former partner	http://dbpedia.org/ontology/FigureSkater	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/aircraftTrainer	aircraft trainer	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/MeanOfTransportation
+http://dbpedia.org/ontology/island	island	http://dbpedia.org/ontology/Lake	http://dbpedia.org/ontology/Island
+http://dbpedia.org/ontology/endingTheme	ending theme	http://dbpedia.org/ontology/TelevisionShow	http://dbpedia.org/ontology/Work
+http://dbpedia.org/ontology/homeport	homeport	http://dbpedia.org/ontology/Ship	
+http://dbpedia.org/ontology/highestMountain	highest mountain		http://dbpedia.org/ontology/Mountain
+http://dbpedia.org/ontology/assembly	assembly	http://dbpedia.org/ontology/MeanOfTransportation	
+http://dbpedia.org/ontology/layout	layout	http://dbpedia.org/ontology/Automobile	
+http://dbpedia.org/ontology/iso6391Code	ISO 639-1 code	http://dbpedia.org/ontology/Language	
+http://dbpedia.org/ontology/iso6392Code	ISO 639-2 code	http://dbpedia.org/ontology/Language	
+http://dbpedia.org/ontology/sourceConfluenceState	source confluence state	http://dbpedia.org/ontology/River	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/frazioni	frazioni	http://dbpedia.org/ontology/Settlement	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/sisterCollege	sister college	http://dbpedia.org/ontology/College	http://dbpedia.org/ontology/College
+http://dbpedia.org/ontology/curator	curator	http://dbpedia.org/ontology/Museum	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/endPoint	end point	http://dbpedia.org/ontology/Canal	http://dbpedia.org/ontology/Place
+http://dbpedia.org/ontology/rector	rector	http://dbpedia.org/ontology/EducationalInstitution	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/aircraftHelicopterCargo	aircraft helicopter cargo	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/MeanOfTransportation
+http://dbpedia.org/ontology/previousEvent	previous event	http://dbpedia.org/ontology/Event	http://dbpedia.org/ontology/Event
+http://dbpedia.org/ontology/bodyDiscovered	body discovered	http://dbpedia.org/ontology/Person	
+http://dbpedia.org/ontology/administrativeCollectivity	administrative collectivity	http://dbpedia.org/ontology/Settlement	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/picture	picture		
+http://dbpedia.org/ontology/winsInEurope	wins in Europe	http://dbpedia.org/ontology/GolfPlayer	
+http://dbpedia.org/ontology/compiler	compiler	http://dbpedia.org/ontology/Album	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/building	building	http://dbpedia.org/ontology/Island	http://dbpedia.org/ontology/Building
+http://dbpedia.org/ontology/formerChoreographer	former choreographer	http://dbpedia.org/ontology/FigureSkater	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/grades	grades	http://dbpedia.org/ontology/School	
+http://dbpedia.org/ontology/school	school	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/EducationalInstitution
+http://dbpedia.org/ontology/currentProduction	current production	http://dbpedia.org/ontology/Theatre	
+http://dbpedia.org/ontology/photographer	photographer	http://dbpedia.org/ontology/TelevisionEpisode	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/associatedAct	associated act	http://dbpedia.org/ontology/Artist	http://dbpedia.org/ontology/Artist
+http://dbpedia.org/ontology/nrhpType	NRHP type	http://dbpedia.org/ontology/HistoricPlace	
+http://dbpedia.org/ontology/opponent	opponent	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/aircraftHelicopterAttack	aircraft helicopter attack	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/MeanOfTransportation
+http://dbpedia.org/ontology/religiousHead	religious head	http://dbpedia.org/ontology/School	
+http://dbpedia.org/ontology/creativeDirector	creative director	http://dbpedia.org/ontology/TelevisionShow	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/formerBroadcastNetwork	former broadcast network	http://dbpedia.org/ontology/Broadcaster	http://dbpedia.org/ontology/BroadcastNetwork
+http://dbpedia.org/ontology/associateEditor	associate editor	http://dbpedia.org/ontology/Newspaper	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/meetingRoad	meeting road	http://dbpedia.org/ontology/RoadJunction	http://dbpedia.org/ontology/Road
+http://dbpedia.org/ontology/drainsTo	drains to	http://dbpedia.org/ontology/AnatomicalStructure	http://dbpedia.org/ontology/AnatomicalStructure
+http://dbpedia.org/ontology/trainer	trainer	http://dbpedia.org/ontology/Athlete	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/honours	honours	http://dbpedia.org/ontology/SoccerClub	
+http://dbpedia.org/ontology/binomial	binomial	http://dbpedia.org/ontology/Species	
+http://dbpedia.org/ontology/originalEndPoint	original end point	http://dbpedia.org/ontology/Canal	http://dbpedia.org/ontology/Place
+http://dbpedia.org/ontology/iso6393Code	ISO 639-3 code	http://dbpedia.org/ontology/Language	
+http://dbpedia.org/ontology/sheading	sheading	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/pastor	pastor	http://dbpedia.org/ontology/HistoricBuilding	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/parish	parish	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/firstPopularVote	firstPopularVote		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/alumni	alumni	http://dbpedia.org/ontology/EducationalInstitution	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/nominee	nominee		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/aircraftHelicopterMultirole	aircraft helicopter multirole	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/MeanOfTransportation
+http://dbpedia.org/ontology/secondDriver	second driver	http://dbpedia.org/ontology/GrandPrix	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/thirdDriverCountry	third driver country	http://dbpedia.org/ontology/GrandPrix	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/railwayLineUsingTunnel	railway line using tunnel	http://dbpedia.org/ontology/RailwayTunnel	
+http://dbpedia.org/ontology/headChef	head chef	http://dbpedia.org/ontology/Restaurant	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/vehicle	vehicle		http://dbpedia.org/ontology/Automobile
+http://dbpedia.org/ontology/spurOf	spur of	http://dbpedia.org/ontology/Road	http://dbpedia.org/ontology/Road
+http://dbpedia.org/ontology/aircraftHelicopterTransport	aircraft helicopter transport	http://dbpedia.org/ontology/MilitaryUnit	http://dbpedia.org/ontology/MeanOfTransportation
+http://dbpedia.org/ontology/poleDriverCountry	pole driver country	http://dbpedia.org/ontology/GrandPrix	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/webcast	webcast		
+http://dbpedia.org/ontology/actScore	ACT score	http://dbpedia.org/ontology/School	
+http://dbpedia.org/ontology/billed	billed	http://dbpedia.org/ontology/Wrestler	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/mostWins	most wins	http://dbpedia.org/ontology/Race	
+http://dbpedia.org/ontology/wineProduced	wine produced	http://dbpedia.org/ontology/WineRegion	
+http://dbpedia.org/ontology/winsAtMajors	wins at majors	http://dbpedia.org/ontology/GolfPlayer	
+http://dbpedia.org/ontology/chaplain	chaplain	http://dbpedia.org/ontology/School	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/targetSpaceStation	target space station station	http://dbpedia.org/ontology/Spacecraft	http://dbpedia.org/ontology/SpaceStation
+http://dbpedia.org/ontology/rocket	rocket	http://dbpedia.org/ontology/Spacecraft	http://dbpedia.org/ontology/Rocket
+http://dbpedia.org/ontology/satScore	SAT score	http://dbpedia.org/ontology/School	
+http://dbpedia.org/ontology/assistantPrincipal	assistant principal	http://dbpedia.org/ontology/School	
+http://dbpedia.org/ontology/trustee	trustee	http://dbpedia.org/ontology/Organisation	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/retiredRocket	retired rocket	http://dbpedia.org/ontology/YearInSpaceflight	http://dbpedia.org/ontology/Rocket
+http://dbpedia.org/ontology/boiler	boiler	http://dbpedia.org/ontology/Locomotive	
+http://dbpedia.org/ontology/boilerPressure	boiler pressure	http://dbpedia.org/ontology/Locomotive	
+http://dbpedia.org/ontology/nationalOlympicCommittee	National Olympic Committee	http://dbpedia.org/ontology/OlympicResult	
+http://dbpedia.org/ontology/fundedBy	funded by	http://dbpedia.org/ontology/ResearchProject	http://dbpedia.org/ontology/Organisation
+http://dbpedia.org/ontology/port1	port1	http://dbpedia.org/ontology/Spacecraft	
+http://dbpedia.org/ontology/headteacher	head teacher	http://dbpedia.org/ontology/School	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/port2	port2	http://dbpedia.org/ontology/Spacecraft	
+http://dbpedia.org/ontology/orthologousGene	Orthologous Gene	http://dbpedia.org/ontology/Gene	http://dbpedia.org/ontology/Gene
+http://dbpedia.org/ontology/projectParticipant	project participant	http://dbpedia.org/ontology/ResearchProject	http://dbpedia.org/ontology/Organisation
+http://dbpedia.org/ontology/custodian	custodian	http://dbpedia.org/ontology/School	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/addressInRoad	address in road	http://dbpedia.org/ontology/Road	
+http://dbpedia.org/ontology/coachedTeam	coached team	http://dbpedia.org/ontology/CollegeCoach	http://dbpedia.org/ontology/SportsTeam
+http://dbpedia.org/ontology/projectCoordinator	project coordinator	http://dbpedia.org/ontology/ResearchProject	http://dbpedia.org/ontology/Organisation
+http://dbpedia.org/ontology/numberOfClassrooms	number of classrooms	http://dbpedia.org/ontology/School	
+http://dbpedia.org/ontology/geneLocation	Gene Location	http://dbpedia.org/ontology/Gene	http://dbpedia.org/ontology/GeneLocation
+http://dbpedia.org/ontology/britishComedyAwards	British Comedy Awards	http://dbpedia.org/ontology/Comedian	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/lessPopulousCountry	less populous country	http://dbpedia.org/ontology/Country	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/geminiAward	Gemini Award	http://dbpedia.org/ontology/Actor	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/complexion	complexion	http://dbpedia.org/ontology/Person	
+http://dbpedia.org/ontology/hairColor	hair color	http://dbpedia.org/ontology/Person	
+http://dbpedia.org/ontology/musicians	musicians	http://dbpedia.org/ontology/Instrument	http://dbpedia.org/ontology/MusicalArtist
+http://dbpedia.org/ontology/viceLeaderParty	vice leader party	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/PoliticalParty
+http://dbpedia.org/ontology/makeupArtist	makeup artist	http://dbpedia.org/ontology/Film	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/laurenceOlivierAward	Laurence Olivier Award	http://dbpedia.org/ontology/Actor	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/winsAtJLPGA	wins at JLPGA	http://dbpedia.org/ontology/GolfPlayer	
+http://dbpedia.org/ontology/aircraftUser	aircraft user	http://dbpedia.org/ontology/Aircraft	http://dbpedia.org/ontology/Organisation
+http://dbpedia.org/ontology/mostPopulousCountry	most populous country	http://dbpedia.org/ontology/Country	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/pictureDescription	picture description		
+http://dbpedia.org/ontology/alpsGroup	Alps group	http://dbpedia.org/ontology/Mountain	http://dbpedia.org/ontology/MountainRange
+http://dbpedia.org/ontology/tonyAward	Tony Award	http://dbpedia.org/ontology/Artist	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/cesarAward	Cesar Award	http://dbpedia.org/ontology/Artist	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/bloodType	blood type	http://dbpedia.org/ontology/Person	
+http://dbpedia.org/ontology/majorLake	major lake	http://dbpedia.org/ontology/NaturalPlace	
+http://dbpedia.org/ontology/youthClub	youth club	http://dbpedia.org/ontology/Athlete	http://dbpedia.org/ontology/SportsTeam
+http://dbpedia.org/ontology/soccerTournamentMostSteady	most steady	http://dbpedia.org/ontology/SoccerTournament	http://dbpedia.org/ontology/SoccerClub
+http://dbpedia.org/ontology/poorestCountry	poorest country	http://dbpedia.org/ontology/Country	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/productionCompany	production company	http://dbpedia.org/ontology/Work	http://dbpedia.org/ontology/Company
+http://dbpedia.org/ontology/winsAtLET	wins at LET	http://dbpedia.org/ontology/GolfPlayer	
+http://dbpedia.org/ontology/polishFilmAward	Polish Film Award	http://dbpedia.org/ontology/Artist	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/dfE	DfE	http://dbpedia.org/ontology/School	
+http://dbpedia.org/ontology/executiveHeadteacher	executive headteacher	http://dbpedia.org/ontology/School	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/setDesigner	set designer	http://dbpedia.org/ontology/Film	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/handedness	handedness	http://dbpedia.org/ontology/Person	
+http://dbpedia.org/ontology/iftaAward	IFTA Award	http://dbpedia.org/ontology/Actor	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/gaudiAward	Gaudí Award	http://dbpedia.org/ontology/Artist	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/soccerTournamentThisSeason	this season	http://dbpedia.org/ontology/SoccerTournament	http://dbpedia.org/ontology/SoccerTournament
+http://dbpedia.org/ontology/emmyAward	Emmy Award	http://dbpedia.org/ontology/Artist	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/inseeCode	INSEE code	http://dbpedia.org/ontology/PopulatedPlace	
+http://dbpedia.org/ontology/viceLeader	vice leader	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/lunarRover	lunar rover	http://dbpedia.org/ontology/SpaceMission	http://dbpedia.org/ontology/MeanOfTransportation
+http://dbpedia.org/ontology/alpsSupergroup	Alps supergroup	http://dbpedia.org/ontology/Mountain	http://dbpedia.org/ontology/MountainRange
+http://dbpedia.org/ontology/soocerLeagueSeason	season	http://dbpedia.org/ontology/SoccerLeagueSeason	http://dbpedia.org/ontology/SoccerLeagueSeason
+http://dbpedia.org/ontology/soocerLeagueRelegated	relegated teams	http://dbpedia.org/ontology/SoccerLeagueSeason	http://dbpedia.org/ontology/SportsTeam
+http://dbpedia.org/ontology/winsAtAlpg	wins at ALPG	http://dbpedia.org/ontology/GolfPlayer	
+http://dbpedia.org/ontology/terytCode	TERYT code	http://dbpedia.org/ontology/PopulatedPlace	
+http://dbpedia.org/ontology/winsAtLAGT	wins at LAGT	http://dbpedia.org/ontology/GolfPlayer	
+http://dbpedia.org/ontology/majorVolcano	major volcano	http://dbpedia.org/ontology/NaturalPlace	
+http://dbpedia.org/ontology/alongside	alongside		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/alpsSubsection	Alps subsection	http://dbpedia.org/ontology/Mountain	http://dbpedia.org/ontology/MountainRange
+http://dbpedia.org/ontology/goyaAward	Goya Award	http://dbpedia.org/ontology/Artist	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/contractor	contractor	http://dbpedia.org/ontology/Skyscraper	http://dbpedia.org/ontology/Company
+http://dbpedia.org/ontology/sourceState	source state		http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/baftaAward	BAFTA Award	http://dbpedia.org/ontology/Artist	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/sportSpecialty	sport specialty	http://dbpedia.org/ontology/Athlete	http://dbpedia.org/ontology/Sport
+http://dbpedia.org/ontology/grammyAward	Grammy Award	http://dbpedia.org/ontology/Artist	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/organisationMember	organisation member	http://dbpedia.org/ontology/Organisation	http://dbpedia.org/ontology/OrganisationMember
+http://dbpedia.org/ontology/tradeMark	TradeMark		
+http://dbpedia.org/ontology/taoiseach	taoiseach		http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/naacpImageAward	NAACP Image Award	http://dbpedia.org/ontology/Actor	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/screenActorsGuildAward	Screen Actors Guild Award	http://dbpedia.org/ontology/Actor	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/goldMedalist	gold medalist	http://dbpedia.org/ontology/SportsEvent	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/mouthState	mouth state	http://dbpedia.org/ontology/River	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/winsAtKLPGA	wins at KLPGA	http://dbpedia.org/ontology/GolfPlayer	
+http://dbpedia.org/ontology/sexualOrientation	sexual orientation	http://dbpedia.org/ontology/Person	
+http://dbpedia.org/ontology/soocerLeagueWinner	league champion	http://dbpedia.org/ontology/SoccerLeagueSeason	http://dbpedia.org/ontology/SportsTeam
+http://dbpedia.org/ontology/mouthDistrict	mouth district	http://dbpedia.org/ontology/River	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/arielAward	Ariel Award	http://dbpedia.org/ontology/Actor	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/goldenCalfAward	Golden Calf Award	http://dbpedia.org/ontology/Actor	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/footedness	Footedness	http://dbpedia.org/ontology/Sport	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/winsAtSun	wins at sun	http://dbpedia.org/ontology/GolfPlayer	
+http://dbpedia.org/ontology/uRN	unique reference number (URN)	http://dbpedia.org/ontology/School	
+http://dbpedia.org/ontology/olympicOathSwornByJudge	olympic oath sworn by judge	http://dbpedia.org/ontology/Olympics	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/americanComedyAward	American Comedy Award	http://dbpedia.org/ontology/Comedian	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/coProducer	co producer	http://dbpedia.org/ontology/TelevisionShow	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/winsAtSenEuro	wins at Senior Euro	http://dbpedia.org/ontology/GolfPlayer	
+http://dbpedia.org/ontology/torchBearer	torch bearer	http://dbpedia.org/ontology/Olympics	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/bronzeMedalist	bronze medalist	http://dbpedia.org/ontology/SportsEvent	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/populationTotalReference	total population reference	http://dbpedia.org/ontology/Settlement	
+http://dbpedia.org/ontology/trainerClub	trainer club	http://dbpedia.org/ontology/SoccerPlayer	http://dbpedia.org/ontology/SportsTeam
+http://dbpedia.org/ontology/show	show	http://dbpedia.org/ontology/TelevisionEpisode	http://dbpedia.org/ontology/TelevisionShow
+http://dbpedia.org/ontology/olivierAward	Olivier Award	http://dbpedia.org/ontology/Comedian	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/club	club	http://dbpedia.org/ontology/Athlete	http://dbpedia.org/ontology/SportsTeam
+http://dbpedia.org/ontology/administrator	administrator	http://dbpedia.org/ontology/School	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/soccerTournamentClosingSeason	closing season	http://dbpedia.org/ontology/SoccerTournament	http://dbpedia.org/ontology/SoccerTournament
+http://dbpedia.org/ontology/goldenRaspberryAward	Golden Raspberry Award	http://dbpedia.org/ontology/Actor	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/meetingBuilding	meeting building	http://dbpedia.org/ontology/Legislature	http://dbpedia.org/ontology/Building
+http://dbpedia.org/ontology/otherAppearances	other appearances	http://dbpedia.org/ontology/OlympicResult	http://dbpedia.org/ontology/OlympicResult
+http://dbpedia.org/ontology/sourceDistrict	source district		http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/managementCountry	management country	http://dbpedia.org/ontology/Island	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/nationalFilmAward	National Film Award	http://dbpedia.org/ontology/Actor	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/giniCoefficientCategory	gini coefficient category	http://dbpedia.org/ontology/PopulatedPlace	
+http://dbpedia.org/ontology/sportDiscipline	sport discipline	http://dbpedia.org/ontology/Athlete	http://dbpedia.org/ontology/Sport
+http://dbpedia.org/ontology/nationalTeam	national team	http://dbpedia.org/ontology/Athlete	http://dbpedia.org/ontology/SportsTeam
+http://dbpedia.org/ontology/actingHeadteacher	acting headteacher	http://dbpedia.org/ontology/School	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/shuttle	shuttle	http://dbpedia.org/ontology/SpaceMission	http://dbpedia.org/ontology/SpaceShuttle
+http://dbpedia.org/ontology/sourceConfluenceCountry	source confluence country	http://dbpedia.org/ontology/River	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/senator	senator	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/silverMedalist	siler medalist	http://dbpedia.org/ontology/SportsEvent	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/explorer	explorer	http://dbpedia.org/ontology/Galaxy	
+http://dbpedia.org/ontology/alpsSection	Alps section	http://dbpedia.org/ontology/Mountain	http://dbpedia.org/ontology/MountainRange
+http://dbpedia.org/ontology/aspectRatio	Aspect Ratio	http://dbpedia.org/ontology/Software	
+http://dbpedia.org/ontology/shipCrew	crew	http://dbpedia.org/ontology/Ship	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/painter	painter	http://dbpedia.org/ontology/Artwork	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/alpsMajorSector	Alps major sector	http://dbpedia.org/ontology/Mountain	http://dbpedia.org/ontology/MountainRange
+http://dbpedia.org/ontology/currentTeamMember	current team member	http://dbpedia.org/ontology/SportsTeam	http://dbpedia.org/ontology/TeamMember
+http://dbpedia.org/ontology/soocerLeaguePromoted	promoted	http://dbpedia.org/ontology/SoccerLeagueSeason	http://dbpedia.org/ontology/SportsTeam
+http://dbpedia.org/ontology/politicGovernmentDepartment	politic government department	http://dbpedia.org/ontology/PopulatedPlace	
+http://dbpedia.org/ontology/dubber	dubber	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/capitalDistrict	capital district	http://dbpedia.org/ontology/Island	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/smallestCountry	smallest country	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/meetingCity	meeting city	http://dbpedia.org/ontology/Legislature	http://dbpedia.org/ontology/Settlement
+http://dbpedia.org/ontology/museum	museum	http://dbpedia.org/ontology/Artwork	http://dbpedia.org/ontology/Museum
+http://dbpedia.org/ontology/cluster	cluster	http://dbpedia.org/ontology/Galaxy	
+http://dbpedia.org/ontology/richestCountry	richest country	http://dbpedia.org/ontology/Country	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/playerInTeam	player in team	http://dbpedia.org/ontology/SportsTeam	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/climate	climate	http://dbpedia.org/ontology/Place	
+http://dbpedia.org/ontology/largestCountry	largest country	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/associateStar	associateStar		http://dbpedia.org/ontology/Constellation
+http://dbpedia.org/ontology/silCode	SIL code	http://dbpedia.org/ontology/Language	
+http://dbpedia.org/ontology/nisCode	NIS code	http://dbpedia.org/ontology/PopulatedPlace	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/filmFareAward	Film Fare Award	http://dbpedia.org/ontology/Artist	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/officialOpenedBy	official opened by	http://dbpedia.org/ontology/Olympics	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/medalist	medalist	http://dbpedia.org/ontology/SportsEvent	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/mostPopulatedCountry	most populated country	http://dbpedia.org/ontology/Country	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/spurType	spur type	http://dbpedia.org/ontology/Road	
+http://dbpedia.org/ontology/commune	commune	http://dbpedia.org/ontology/Settlement	http://dbpedia.org/ontology/Settlement
+http://dbpedia.org/ontology/academyAward	Academy Award	http://dbpedia.org/ontology/Artist	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/lessPopulatedCountry	less populated country	http://dbpedia.org/ontology/Country	http://dbpedia.org/ontology/Country
+http://dbpedia.org/ontology/coExecutiveProducer	co executive producer	http://dbpedia.org/ontology/TelevisionShow	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/eyeColor	eye color	http://dbpedia.org/ontology/Person	
+http://dbpedia.org/ontology/patent	patent	http://dbpedia.org/ontology/Person	
+http://dbpedia.org/ontology/simcCode	SIMC code	http://dbpedia.org/ontology/PopulatedPlace	
+http://dbpedia.org/ontology/afiAward	AFI Award	http://dbpedia.org/ontology/Artist	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/classis	classis	http://dbpedia.org/ontology/Species	
+http://dbpedia.org/ontology/largestMetro	largest metro	http://dbpedia.org/ontology/Settlement	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/managementRegion	management region	http://dbpedia.org/ontology/Island	http://dbpedia.org/ontology/PopulatedPlace
+http://dbpedia.org/ontology/alpsSubgroup	Alps subgroup	http://dbpedia.org/ontology/Mountain	http://dbpedia.org/ontology/MountainRange
+http://dbpedia.org/ontology/wikiPageInterLanguageLink	Link from a Wikipage to a Wikipage in a different language about the same or a related subject.		
+http://dbpedia.org/ontology/elementAbove	element above		http://dbpedia.org/ontology/ChemicalSubstance
+http://dbpedia.org/ontology/olympicOathSwornByAthlete	olympic oath sworn by athlete	http://dbpedia.org/ontology/Olympics	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/languageCode	language code	http://dbpedia.org/ontology/Language	
+http://dbpedia.org/ontology/humanDevelopmentIndexRankingCategory	human development index (HDI) category	http://dbpedia.org/ontology/PopulatedPlace	
+http://dbpedia.org/ontology/soccerTournamentOpeningSeason	opening season	http://dbpedia.org/ontology/SoccerTournament	http://dbpedia.org/ontology/SoccerTournament
+http://dbpedia.org/ontology/buriedPlace	buried place	http://dbpedia.org/ontology/Person	http://dbpedia.org/ontology/Place
+http://dbpedia.org/ontology/architectualBureau	architectual bureau	http://dbpedia.org/ontology/ArchitecturalStructure	http://dbpedia.org/ontology/Company
+http://dbpedia.org/ontology/alpsMainPart	Alps main part	http://dbpedia.org/ontology/Mountain	http://dbpedia.org/ontology/MountainRange
+http://dbpedia.org/ontology/specialEffects	special effects	http://dbpedia.org/ontology/Film	http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/soccerTournamentLastChampion	last champion	http://dbpedia.org/ontology/SoccerTournament	http://dbpedia.org/ontology/SoccerClub
+http://dbpedia.org/ontology/goldenGlobeAward	Golden Globe Award	http://dbpedia.org/ontology/Artist	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/constellation	constellation	http://dbpedia.org/ontology/Galaxy	
+http://dbpedia.org/ontology/astrologicalSign	astrological sign	http://dbpedia.org/ontology/Person	
+http://dbpedia.org/ontology/soccerTournamentTopScorer	top scorer	http://dbpedia.org/ontology/SoccerTournament	http://dbpedia.org/ontology/SoccerPlayer
+http://dbpedia.org/ontology/soccerTournamentMostSuccesfull	most successfull	http://dbpedia.org/ontology/SoccerTournament	http://dbpedia.org/ontology/SoccerClub
+http://dbpedia.org/ontology/peabodyAward	Peabody Award	http://dbpedia.org/ontology/Comedian	http://dbpedia.org/ontology/Award
+http://dbpedia.org/ontology/costumeDesigner	costume designer	http://dbpedia.org/ontology/Film	http://dbpedia.org/ontology/Person
