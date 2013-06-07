@@ -1,3 +1,4 @@
+/** takes a list of properties and for each of them determines and writes to a file the list of correlated properties and its frequency**/
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
@@ -36,7 +37,7 @@ public class Main
 	static String tsv(Object... x)
 	{
 		String s = Arrays.toString(x);
-		return s.substring(0, s.length()-1).replace(',','\t');		
+		return s.substring(1, s.length()-1).replace(',','\t');		
 	}
 
 	static class PropertyInfoGetter implements Callable<String>
@@ -46,6 +47,7 @@ public class Main
 		final String label;
 		final int nr;
 
+	
 		public PropertyInfoGetter(String query,String property,String label, int nr)
 		{
 			this.label=label;
@@ -65,7 +67,7 @@ public class Main
 				String otherLabel = qs.getLiteral("?l").getLexicalForm();
 				int count = qs.getLiteral("?cnt").getInt();
 				sb.append(tsv(property,label,otherProperty,otherLabel,count));
-				if(rs.hasNext()) {sb.append('\n');}
+				/*if(rs.hasNext()) */{sb.append('\n');}
 			}
 			return sb.toString();
 		}
