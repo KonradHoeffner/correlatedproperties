@@ -1,0 +1,77 @@
+mushroom	Fungus	species=8244	fungus=8244
+shellfish	Crustacean	species=2212
+piece of work	MusicalWork	song=5048	single=41774	album=112249
+LP	Album	work=112249	album=112249
+track	Song	work=5048	song=5048
+movie	Film	film=71715
+musician	MusicalArtist	agent=34246
+broadcasting station	RadioStation	organisation=17414	radio station=17414	agent=17414
+prize	Award	award=1506
+label	RecordLabel	record label=2236	organisation=2236	agent=2236
+star	starring	person=8	voice=192	previous work=8	network=26	creator=2584	related=24	opening theme=832	composer=250	author=746	showJudge=26	story editor=12	executive producer=1204	music composer=1776	distributor=66	cinematography=334	artist=8	writer=8978	Wikipage redirect=14	based on=56	ending theme=338	narrator=1622	editing=778	format=12	director=7394	presenter=288	country=2	editor=44	developer=124	company=48	producer=7330	creative director=24	language=4	channel=4	starring=668022
+feature	starring	person=8	voice=192	previous work=8	network=26	creator=2584	related=24	opening theme=832	composer=250	author=746	showJudge=26	story editor=12	executive producer=1204	music composer=1776	distributor=66	cinematography=334	artist=8	writer=8978	Wikipage redirect=14	based on=56	ending theme=338	narrator=1622	editing=778	format=12	director=7394	presenter=288	country=2	editor=44	developer=124	company=48	producer=7330	creative director=24	language=4	channel=4	starring=668022
+win	award	home town=2	birth place=134	location=2	college=8	employer=8	award=143274	citizenship=12	education=16	notable student=2	training=38	predecessor=2	influenced by=2	notable work=38	movement=4	statistic label=14	influenced=2	Wikipage redirect=4	resting place=6	significant project=2	occupation=22	former team=20	relation=2	sport=2	team=28	league=338	board=6	military unit=8	known for=46	field=52	alma mater=94	nationality=52	doctoral advisor=2	honours=6	battle=12	residence=24	death place=44	academic advisor=2	state of origin=4	language=2	doctoral student=6
+receive	award	home town=2	birth place=134	location=2	college=8	employer=8	award=143274	citizenship=12	education=16	notable student=2	training=38	predecessor=2	influenced by=2	notable work=38	movement=4	statistic label=14	influenced=2	Wikipage redirect=4	resting place=6	significant project=2	occupation=22	former team=20	relation=2	sport=2	team=28	league=338	board=6	military unit=8	known for=46	field=52	alma mater=94	nationality=52	doctoral advisor=2	honours=6	battle=12	residence=24	death place=44	academic advisor=2	state of origin=4	language=2	doctoral student=6
+bacillus	Bacteria	bacteria=328
+germs	Bacteria	bacteria=328
+mall	ShoppingMall	place=2086
+shopping center	ShoppingMall	place=2086
+infirmary	Hospital	place=2019	hospital=2019
+street	Road	road=17095	place=17095	infrastructure=17095
+highway	Road	road=17095	place=17095	infrastructure=17095
+route	Road	road=17095	place=17095	infrastructure=17095
+beacon	Lighthouse	lighthouse=1403	place=1403
+web page	Website	website=2605
+drink	Beverage	beverage=654
+party	PoliticalParty	political party=3311	agent=3311
+labor union	TradeUnion	agent=1454
+paper	Newspaper	work=4669	newspaper=4669
+journal	Newspaper	work=4669	newspaper=4669
+periodical	Magazine	work=3388	magazine=3388
+researcher	Scientist	scientist=12842	agent=12842
+premier	PrimeMinister	person=1466	agent=1466	prime minister=1466
+bishop	ChristianBishop	person=4108	agent=4108
+clerk	Cleric	cardinal=509	saint=2668	agent=7285	cleric=7285
+thug	Criminal	criminal=1426	agent=1426
+magistrate	Judge	judge=1536	agent=1536
+marry	spouse	president=29	series=9	associated musical artist=4	successor=81	birth place=16	employer=2	first appearance=4	governor=8	party=1	education=4	associate=2	notable student=1	child=128	predecessor=23	chancellor=1	influenced by=3	deputy=1	spouse=22487	partner=17	vice president=2	influenced=2	Wikipage redirect=6	appointer=2	resting place=3	prime minister=7	occupation=8	relation=5	parent=14	relative=46	known for=34	associated band=2	alma mater=1	last appearance=1	residence=6	death place=18	incumbent=1
+location	Place	mountain=11613	municipality=348520	valley=117	road=17095	cave=238	city=15868	island=3191	airport=11533	volcano=781	village=92562	wine region=321	place=572728	World Heritage Site=1044	building=60514	launch pad=79	park=1454	station=20319	organisation=618	lighthouse=1403	lake=9440	museum=3148	agent=618	country=2710	stadium=7345	theatre=846	continent=12	library=618	town=37997	bridge=2996	hotel=899	Site of Special Scientific Interest=461	infrastructure=57388	hospital=2019	tunnel=249	river=24267
+nation	Country	place=2710	country=2710
+mountain chain	MountainRange	place=1691
+ridge	MountainRange	place=1691
+cavern	Cave	cave=238	place=238
+grotto	Cave	cave=238	place=238
+traverse	crosses	picture=16	maintained by=4	owner=2	crosses=5372	located in area=62
+bridge	crosses	picture=16	maintained by=4	owner=2	crosses=5372	located in area=62
+span	crosses	picture=16	maintained by=4	owner=2	crosses=5372	located in area=62
+moon crater	LunarCrater	place=1474
+spaceship	Spacecraft	spacecraft=81
+sportsman	Athlete	cricketer=10443	rugby player=9213	cyclist=3340	basketball player=2605	boxer=2284	baseball player=17487	badminton player=404	ice hockey player=10957	agent=185126	wrestler=1787	figure skater=2371	soccer player=81438	Australian rules football player=1913	snooker player=274	tennis player=2685	athlete=185126
+player	IceHockeyPlayer	person=10957	ice hockey player=10957	agent=10957
+player	AmericanFootballPlayer	person=11297	agent=11297	athlete=11297
+player	GridironFootballPlayer	person=18232	agent=18232
+racer	FormulaOneRacer	person=845	agent=845
+NASCAR driver	NascarDriver	person=751	agent=751
+team	SportsTeam	agent=16632
+soccer team	SoccerClub	organisation=15727	agent=15727
+team	AmericanFootballTeam	organisation=3	agent=3
+league	SportsLeague	rugby league=126	agent=1402
+league	IceHockeyLeague	organisation=189	agent=189
+league	FieldHockeyLeague	organisation=20	agent=20
+league	InlineHockeyLeague	organisation=18	agent=18
+league	AmericanFootballLeague	organisation=69	agent=69
+league	MixedMartialArtsLeague	organisation=1	agent=1
+MMA league	MixedMartialArtsLeague	organisation=1	agent=1
+league	MixedMartialArtsLeague	organisation=1	agent=1
+piece of software	Software	software=27947	video game=18344
+electricity station	PowerStation	place=1605
+generating plant	PowerStation	place=1605
+generating station	PowerStation	place=1605
+power plant	PowerStation	place=1605
+boat	Ship	ship=51128
+airplane	Aircraft	aircraft=8329
+plane	Aircraft	aircraft=8329
+auto	Automobile	automobile=7486
+car	Automobile	automobile=7486
+vehicle	Automobile	automobile=7486
+engine	Locomotive	locomotive=2655

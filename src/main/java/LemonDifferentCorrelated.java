@@ -103,7 +103,7 @@ public class LemonDifferentCorrelated
 //		System.out.println(correlatedPropertyLabelFrequencies);
 		//		Map<String,Map<String,Integer>> correlatedClassFrequencies = new HashMap<>();
 
-		File folder = new File("output/correlatedLemon");
+		File folder = new File("output/correlatedlemon");
 		folder.mkdirs();
 		File file = Paths.get(folder.getPath(),"correlatedlemon.tsv").toFile();
 		try(PrintWriter out = new PrintWriter(file))
