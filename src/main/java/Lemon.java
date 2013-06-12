@@ -1,42 +1,42 @@
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.HashSet;
-import java.util.Random;
+import java.nio.file.Paths;
 import java.util.Scanner;
-import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
 import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.rdf.model.RDFNode;
-import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.sparql.engine.http.QueryEngineHTTP;
 
 /** extract property pairs from the lemon files on github **/
-public class FromLemon
+public class Lemon
 {		
+	public static File folderCombined = new File("output/lemon/combined");
+	public static File allDifferent = Paths.get(folderCombined.getPath(),"alldifferent.tsv").toFile();
 	
 	public static void main(String[] args) throws IOException
-	{		
+	{
+		File folderSingle = new File("output/lemon/single");
+		folderSingle.mkdirs();
+				
+		folderCombined.mkdirs();
+
 		String baseURL = "https://raw.github.com/cunger/lemon.dbpedia/master/en/";
-		String[] fileNames = {"animals_plants.ldp","arts_entertainment.ldp","body_health.ldp","buildings.ldp","misc.ldp","persons_organizations.ldp","places.ldp","space.ldp","sports.ldp","technology_transportation.ldp"};
-		File folder = new File("lemon");
-		folder.mkdir();
-		File outAllSimilarFile = new File(folder+"/allsimilar.tsv");
-		File outAllDifferentFile = new File(folder+"/alldifferent.tsv");
-		for(File f: new File[] {outAllSimilarFile,outAllDifferentFile})
+		String[] fileNames = {"animals_plants.ldp","arts_entertainment.ldp","body_health.ldp","buildings.ldp","misc.ldp","persons_organizations.ldp","places.ldp","space.ldp","sports.ldp","technology_transportation.ldp"};	
+		
+		File allSimilar = new File(folderSingle+"/allsimilar.tsv");
+
+		for(File f: new File[] {allSimilar,allDifferent})
 		{
 			if(f.exists()) {System.err.println(f+" already exists, exiting.");System.exit(1);}
 		}
-		try	(PrintWriter outAllSimilar = new PrintWriter(outAllSimilarFile);PrintWriter outAllDifferent = new PrintWriter(folder+"/alldifferent.tsv"))
+		try	(PrintWriter outAllSimilar = new PrintWriter(allSimilar);PrintWriter outAllDifferent = new PrintWriter(allDifferent))
 		{			
 			for(String fileName : fileNames)
 			{
-				try(PrintWriter outSimilar = new PrintWriter(folder+"/"+fileName+"_similar.tsv");PrintWriter outDifferent= new PrintWriter(folder+"/"+fileName+"different.tsv"))
+				try(PrintWriter outSimilar = new PrintWriter(folderSingle+"/"+fileName+"_similar.tsv");PrintWriter outDifferent= new PrintWriter(folderSingle+"/"+fileName+"different.tsv"))
 				{				
 					URL url = new URL(baseURL+fileName);
 					Pattern pSingle = Pattern.compile("\\(\"(\\w+)\",dbpedia:(\\w+)\\)");
@@ -84,11 +84,12 @@ public class FromLemon
 								//									{
 								RDFNode node = rs.next().get("?l");								
 								dbpediaLabel = node.asLiteral().getLexicalForm();
-
-								PrintWriter out = levenshtein(label, dbpediaLabel)>0.7?outSimilar:outDifferent;											
+								// save effort by removing the allways-the-same dbo prefix
+								dbpediaResource.replace(Defaults.DBO,"");
+								@SuppressWarnings("resource") PrintWriter out = levenshtein(label, dbpediaLabel)>0.7?outSimilar:outDifferent;											
 								out.println(CorrelatedProperties.tsv(label, dbpediaResource,dbpediaLabel));
 
-								PrintWriter allOut = levenshtein(label, dbpediaLabel)>0.7?outAllSimilar:outAllDifferent	;											
+								@SuppressWarnings("resource") PrintWriter allOut = levenshtein(label, dbpediaLabel)>0.7?outAllSimilar:outAllDifferent	;											
 								allOut.println(CorrelatedProperties.tsv(label, dbpediaResource,dbpediaLabel));
 							}
 
@@ -101,6 +102,7 @@ public class FromLemon
 	}
 }
 
+/** Copied somewhere from the internet and modified for double values and 1 being most similar**/
 static public double levenshtein(String a, String b)
 {
 	/* Schritt 1 */

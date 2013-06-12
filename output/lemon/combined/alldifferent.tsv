@@ -1,98 +1,98 @@
-mushroom	 http://dbpedia.org/ontology/Fungus	 fungus
-shellfish	 http://dbpedia.org/ontology/Crustacean	 crustacean
-piece of work	 http://dbpedia.org/ontology/MusicalWork	 musical work
-LP	 http://dbpedia.org/ontology/Album	 album
-track	 http://dbpedia.org/ontology/Song	 song
-movie	 http://dbpedia.org/ontology/Film	 film
-musician	 http://dbpedia.org/ontology/MusicalArtist	 musical artist
-TV show	 http://dbpedia.org/ontology/TelevisionShow	 television show
-show	 http://dbpedia.org/ontology/TelevisionShow	 television show
-TV episode	 http://dbpedia.org/ontology/TelevisionEpisode	 television episode
-episode	 http://dbpedia.org/ontology/TelevisionEpisode	 television episode
-broadcasting station	 http://dbpedia.org/ontology/RadioStation	 radio station
-prize	 http://dbpedia.org/ontology/Award	 award
-label	 http://dbpedia.org/ontology/RecordLabel	 record label
-genre	 http://dbpedia.org/ontology/MusicGenre	 music genre
-star	 http://dbpedia.org/ontology/starring	 starring
-feature	 http://dbpedia.org/ontology/starring	 starring
-win	 http://dbpedia.org/ontology/award	 award
-receive	 http://dbpedia.org/ontology/award	 award
-illness	 http://dbpedia.org/ontology/Disease	 disease
-sickness	 http://dbpedia.org/ontology/Disease	 disease
-medicine	 http://dbpedia.org/ontology/Drug	 drug
-medicament	 http://dbpedia.org/ontology/Drug	 drug
-pharmaceutical	 http://dbpedia.org/ontology/Drug	 drug
-bacillus	 http://dbpedia.org/ontology/Bacteria	 bacteria
-germs	 http://dbpedia.org/ontology/Bacteria	 bacteria
-mall	 http://dbpedia.org/ontology/ShoppingMall	 shopping mall
-shopping center	 http://dbpedia.org/ontology/ShoppingMall	 shopping mall
-infirmary	 http://dbpedia.org/ontology/Hospital	 hospital
-street	 http://dbpedia.org/ontology/Road	 road
-highway	 http://dbpedia.org/ontology/Road	 road
-route	 http://dbpedia.org/ontology/Road	 road
-beacon	 http://dbpedia.org/ontology/Lighthouse	 lighthouse
-web page	 http://dbpedia.org/ontology/Website	 website
-case	 http://dbpedia.org/ontology/LegalCase	 Legal Case
-court case	 http://dbpedia.org/ontology/LegalCase	 Legal Case
-law case	 http://dbpedia.org/ontology/LegalCase	 Legal Case
-legal matter	 http://dbpedia.org/ontology/LegalCase	 Legal Case
-drink	 http://dbpedia.org/ontology/Beverage	 beverage
-war	 http://dbpedia.org/ontology/MilitaryConflict	 military conflict
-battle	 http://dbpedia.org/ontology/MilitaryConflict	 military conflict
-party	 http://dbpedia.org/ontology/PoliticalParty	 political party
-labor union	 http://dbpedia.org/ontology/TradeUnion	 trade union
-paper	 http://dbpedia.org/ontology/Newspaper	 newspaper
-journal	 http://dbpedia.org/ontology/Newspaper	 newspaper
-periodical	 http://dbpedia.org/ontology/Magazine	 magazine
-researcher	 http://dbpedia.org/ontology/Scientist	 scientist
-premier	 http://dbpedia.org/ontology/PrimeMinister	 prime minister
-bishop	 http://dbpedia.org/ontology/ChristianBishop	 Christian Bishop
-clerk	 http://dbpedia.org/ontology/Cleric	 cleric
-priest	 http://dbpedia.org/ontology/Priest	 prÃªtre
-thug	 http://dbpedia.org/ontology/Criminal	 criminal
-magistrate	 http://dbpedia.org/ontology/Judge	 judge
-marry	 http://dbpedia.org/ontology/spouse	 spouse
-weigh	 http://dbpedia.org/ontology/weight	 weight (g)
-location	 http://dbpedia.org/ontology/Place	 place
-nation	 http://dbpedia.org/ontology/Country	 country
-mountain chain	 http://dbpedia.org/ontology/MountainRange	 mountain range
-ridge	 http://dbpedia.org/ontology/MountainRange	 mountain range
-cavern	 http://dbpedia.org/ontology/Cave	 cave
-grotto	 http://dbpedia.org/ontology/Cave	 cave
-ski region	 http://dbpedia.org/ontology/SkiArea	 ski area
-traverse	 http://dbpedia.org/ontology/crosses	 crosses
-bridge	 http://dbpedia.org/ontology/crosses	 crosses
-span	 http://dbpedia.org/ontology/crosses	 crosses
-moon crater	 http://dbpedia.org/ontology/LunarCrater	 lunar crater
-spaceship	 http://dbpedia.org/ontology/Spacecraft	 spacecraft
-manager	 http://dbpedia.org/ontology/SportsManager	 sports manager
-sportsman	 http://dbpedia.org/ontology/Athlete	 athlete
-player	 http://dbpedia.org/ontology/IceHockeyPlayer	 ice hockey player
-player	 http://dbpedia.org/ontology/AmericanFootballPlayer	 american football player
-player	 http://dbpedia.org/ontology/GridironFootballPlayer	 gridiron football player
-racer	 http://dbpedia.org/ontology/FormulaOneRacer	 Formula One racer
-NASCAR driver	 http://dbpedia.org/ontology/NascarDriver	 nascar driver
-team	 http://dbpedia.org/ontology/SportsTeam	 sports team
-soccer team	 http://dbpedia.org/ontology/SoccerClub	 soccer club
-team	 http://dbpedia.org/ontology/AmericanFootballTeam	 american football team
-league	 http://dbpedia.org/ontology/SportsLeague	 sports league
-league	 http://dbpedia.org/ontology/IceHockeyLeague	 ice hockey league
-league	 http://dbpedia.org/ontology/FieldHockeyLeague	 field hockey league
-league	 http://dbpedia.org/ontology/InlineHockeyLeague	 inline hockey league
-league	 http://dbpedia.org/ontology/AmericanFootballLeague	 american football league
-league	 http://dbpedia.org/ontology/MixedMartialArtsLeague	 mixed martial arts league
-MMA league	 http://dbpedia.org/ontology/MixedMartialArtsLeague	 mixed martial arts league
-league	 http://dbpedia.org/ontology/MixedMartialArtsLeague	 mixed martial arts league
-accommodate	 http://dbpedia.org/ontology/capacity	 capacity
-piece of software	 http://dbpedia.org/ontology/Software	 software
-electricity station	 http://dbpedia.org/ontology/PowerStation	 power station
-generating plant	 http://dbpedia.org/ontology/PowerStation	 power station
-generating station	 http://dbpedia.org/ontology/PowerStation	 power station
-power plant	 http://dbpedia.org/ontology/PowerStation	 power station
-boat	 http://dbpedia.org/ontology/Ship	 ship
-airplane	 http://dbpedia.org/ontology/Aircraft	 aircraft
-plane	 http://dbpedia.org/ontology/Aircraft	 aircraft
-auto	 http://dbpedia.org/ontology/Automobile	 automobile
-car	 http://dbpedia.org/ontology/Automobile	 automobile
-vehicle	 http://dbpedia.org/ontology/Automobile	 automobile
-engine	 http://dbpedia.org/ontology/Locomotive	 locomotive
+mushroom	Fungus	fungus
+shellfish	Crustacean	crustacean
+piece of work	MusicalWork	musical work
+LP	Album	album
+track	Song	song
+movie	Film	film
+musician	MusicalArtist	musical artist
+TV show	TelevisionShow	television show
+show	TelevisionShow	television show
+TV episode	TelevisionEpisode	television episode
+episode	TelevisionEpisode	television episode
+broadcasting station	RadioStation	radio station
+prize	Award	award
+label	RecordLabel	record label
+genre	MusicGenre	music genre
+star	starring	starring
+feature	starring	starring
+win	award	award
+receive	award	award
+illness	Disease	disease
+sickness	Disease	disease
+medicine	Drug	drug
+medicament	Drug	drug
+pharmaceutical	Drug	drug
+bacillus	Bacteria	bacteria
+germs	Bacteria	bacteria
+mall	ShoppingMall	shopping mall
+shopping center	ShoppingMall	shopping mall
+infirmary	Hospital	hospital
+street	Road	road
+highway	Road	road
+route	Road	road
+beacon	Lighthouse	lighthouse
+web page	Website	website
+case	LegalCase	Legal Case
+court case	LegalCase	Legal Case
+law case	LegalCase	Legal Case
+legal matter	LegalCase	Legal Case
+drink	Beverage	beverage
+war	MilitaryConflict	military conflict
+battle	MilitaryConflict	military conflict
+party	PoliticalParty	political party
+labor union	TradeUnion	trade union
+paper	Newspaper	newspaper
+journal	Newspaper	newspaper
+periodical	Magazine	magazine
+researcher	Scientist	scientist
+premier	PrimeMinister	prime minister
+bishop	ChristianBishop	Christian Bishop
+clerk	Cleric	cleric
+priest	Priest	prÃªtre
+thug	Criminal	criminal
+magistrate	Judge	judge
+marry	spouse	spouse
+weigh	weight	weight (g)
+location	Place	place
+nation	Country	country
+mountain chain	MountainRange	mountain range
+ridge	MountainRange	mountain range
+cavern	Cave	cave
+grotto	Cave	cave
+ski region	SkiArea	ski area
+traverse	crosses	crosses
+bridge	crosses	crosses
+span	crosses	crosses
+moon crater	LunarCrater	lunar crater
+spaceship	Spacecraft	spacecraft
+manager	SportsManager	sports manager
+sportsman	Athlete	athlete
+player	IceHockeyPlayer	ice hockey player
+player	AmericanFootballPlayer	american football player
+player	GridironFootballPlayer	gridiron football player
+racer	FormulaOneRacer	Formula One racer
+NASCAR driver	NascarDriver	nascar driver
+team	SportsTeam	sports team
+soccer team	SoccerClub	soccer club
+team	AmericanFootballTeam	american football team
+league	SportsLeague	sports league
+league	IceHockeyLeague	ice hockey league
+league	FieldHockeyLeague	field hockey league
+league	InlineHockeyLeague	inline hockey league
+league	AmericanFootballLeague	american football league
+league	MixedMartialArtsLeague	mixed martial arts league
+MMA league	MixedMartialArtsLeague	mixed martial arts league
+league	MixedMartialArtsLeague	mixed martial arts league
+accommodate	capacity	capacity
+piece of software	Software	software
+electricity station	PowerStation	power station
+generating plant	PowerStation	power station
+generating station	PowerStation	power station
+power plant	PowerStation	power station
+boat	Ship	ship
+airplane	Aircraft	aircraft
+plane	Aircraft	aircraft
+auto	Automobile	automobile
+car	Automobile	automobile
+vehicle	Automobile	automobile
+engine	Locomotive	locomotive
