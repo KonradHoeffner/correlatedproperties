@@ -9,6 +9,8 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
 import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.rdf.model.RDFNode;
 import com.hp.hpl.jena.rdf.model.Resource;
@@ -16,15 +18,21 @@ import com.hp.hpl.jena.sparql.engine.http.QueryEngineHTTP;
 
 /** extract property pairs from the lemon files on github **/
 public class FromLemon
-{	
-
+{		
+	
 	public static void main(String[] args) throws IOException
 	{		
 		String baseURL = "https://raw.github.com/cunger/lemon.dbpedia/master/en/";
 		String[] fileNames = {"animals_plants.ldp","arts_entertainment.ldp","body_health.ldp","buildings.ldp","misc.ldp","persons_organizations.ldp","places.ldp","space.ldp","sports.ldp","technology_transportation.ldp"};
 		File folder = new File("lemon");
 		folder.mkdir();
-		try	(PrintWriter outAllSimilar = new PrintWriter(folder+"/allsimilar.tsv");PrintWriter outAllDifferent = new PrintWriter(folder+"/alldifferent.tsv"))
+		File outAllSimilarFile = new File(folder+"/allsimilar.tsv");
+		File outAllDifferentFile = new File(folder+"/alldifferent.tsv");
+		for(File f: new File[] {outAllSimilarFile,outAllDifferentFile})
+		{
+			if(f.exists()) {System.err.println(f+" already exists, exiting.");System.exit(1);}
+		}
+		try	(PrintWriter outAllSimilar = new PrintWriter(outAllSimilarFile);PrintWriter outAllDifferent = new PrintWriter(folder+"/alldifferent.tsv"))
 		{			
 			for(String fileName : fileNames)
 			{
@@ -78,10 +86,10 @@ public class FromLemon
 								dbpediaLabel = node.asLiteral().getLexicalForm();
 
 								PrintWriter out = levenshtein(label, dbpediaLabel)>0.7?outSimilar:outDifferent;											
-								out.println(Main.tsv(label, dbpediaResource,dbpediaLabel));
+								out.println(CorrelatedProperties.tsv(label, dbpediaResource,dbpediaLabel));
 
 								PrintWriter allOut = levenshtein(label, dbpediaLabel)>0.7?outAllSimilar:outAllDifferent	;											
-								allOut.println(Main.tsv(label, dbpediaResource,dbpediaLabel));
+								allOut.println(CorrelatedProperties.tsv(label, dbpediaResource,dbpediaLabel));
 							}
 
 						}

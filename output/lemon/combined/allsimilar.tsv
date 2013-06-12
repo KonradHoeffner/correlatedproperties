@@ -1,0 +1,205 @@
+species	 http://dbpedia.org/ontology/Species	 species
+animal	 http://dbpedia.org/ontology/Animal	 animal
+insect	 http://dbpedia.org/ontology/Insect	 insect
+plant	 http://dbpedia.org/ontology/Plant	 plant
+fern	 http://dbpedia.org/ontology/Fern	 fern
+moss	 http://dbpedia.org/ontology/Moss	 moss
+conifer	 http://dbpedia.org/ontology/Conifer	 conifer
+grape	 http://dbpedia.org/ontology/Grape	 grape
+mammal	 http://dbpedia.org/ontology/Mammal	 mammal
+fish	 http://dbpedia.org/ontology/Fish	 fish
+bird	 http://dbpedia.org/ontology/Bird	 bird
+fungus	 http://dbpedia.org/ontology/Fungus	 fungus
+amphibian	 http://dbpedia.org/ontology/Amphibian	 amphibian
+reptile	 http://dbpedia.org/ontology/Reptile	 reptile
+arachnid	 http://dbpedia.org/ontology/Arachnid	 arachnid
+crustacean	 http://dbpedia.org/ontology/Crustacean	 crustacean
+artist	 http://dbpedia.org/ontology/Artist	 artist
+work	 http://dbpedia.org/ontology/Work	 work
+painting	 http://dbpedia.org/ontology/Painting	 Painting
+sculpture	 http://dbpedia.org/ontology/Sculpture	 Sculpture
+musical work	 http://dbpedia.org/ontology/MusicalWork	 musical work
+album	 http://dbpedia.org/ontology/Album	 album
+single	 http://dbpedia.org/ontology/Single	 single
+song	 http://dbpedia.org/ontology/Song	 song
+film	 http://dbpedia.org/ontology/Film	 film
+actor	 http://dbpedia.org/ontology/Actor	 actor
+voice actor	 http://dbpedia.org/ontology/VoiceActor	 voice actor
+book	 http://dbpedia.org/ontology/Book	 book
+writer	 http://dbpedia.org/ontology/Writer	 writer
+band	 http://dbpedia.org/ontology/Band	 Band
+instrument	 http://dbpedia.org/ontology/Instrument	 Instrument
+television show	 http://dbpedia.org/ontology/TelevisionShow	 television show
+radio station	 http://dbpedia.org/ontology/RadioStation	 radio station
+broadcast	 http://dbpedia.org/ontology/Broadcast	 broadcast
+musical	 http://dbpedia.org/ontology/Musical	 musical
+fictional character	 http://dbpedia.org/ontology/FictionalCharacter	 fictional character
+comics character	 http://dbpedia.org/ontology/ComicsCharacter	 comics character
+award	 http://dbpedia.org/ontology/Award	 award
+music festival	 http://dbpedia.org/ontology/MusicFestival	 music festival
+film festival	 http://dbpedia.org/ontology/FilmFestival	 film festival
+convention	 http://dbpedia.org/ontology/Convention	 convention
+record label	 http://dbpedia.org/ontology/RecordLabel	 record label
+music genre	 http://dbpedia.org/ontology/MusicGenre	 music genre
+protein	 http://dbpedia.org/ontology/Protein	 protein
+chemical compound	 http://dbpedia.org/ontology/ChemicalCompound	 chemical compound
+disease	 http://dbpedia.org/ontology/Disease	 disease
+drug	 http://dbpedia.org/ontology/Drug	 drug
+bacteria	 http://dbpedia.org/ontology/Bacteria	 bacteria
+anatomical structure	 http://dbpedia.org/ontology/AnatomicalStructure	 anatomical structure
+brain	 http://dbpedia.org/ontology/Brain	 brain
+bone	 http://dbpedia.org/ontology/Bone	 bone
+artery	 http://dbpedia.org/ontology/Artery	 artery
+vein	 http://dbpedia.org/ontology/Vein	 vein
+muscle	 http://dbpedia.org/ontology/Muscle	 muscle
+nerve	 http://dbpedia.org/ontology/Nerve	 nerve
+lymph	 http://dbpedia.org/ontology/Lymph	 lymph
+building	 http://dbpedia.org/ontology/Building	 building
+historic building	 http://dbpedia.org/ontology/HistoricBuilding	 historic building
+historical building	 http://dbpedia.org/ontology/HistoricBuilding	 historic building
+stadium	 http://dbpedia.org/ontology/Stadium	 stadium
+arena	 http://dbpedia.org/ontology/Arena	 arena
+school	 http://dbpedia.org/ontology/School	 school
+college	 http://dbpedia.org/ontology/College	 college
+bridge	 http://dbpedia.org/ontology/Bridge	 bridge
+university	 http://dbpedia.org/ontology/University	 university
+shopping mall	 http://dbpedia.org/ontology/ShoppingMall	 shopping mall
+hospital	 http://dbpedia.org/ontology/Hospital	 hospital
+museum	 http://dbpedia.org/ontology/Museum	 museum
+station	 http://dbpedia.org/ontology/Station	 station
+airport	 http://dbpedia.org/ontology/Airport	 airport
+road	 http://dbpedia.org/ontology/Road	 road
+hotel	 http://dbpedia.org/ontology/Hotel	 hotel
+restaurant	 http://dbpedia.org/ontology/Restaurant	 restaurant
+skyscraper	 http://dbpedia.org/ontology/Skyscraper	 skyscraper
+monument	 http://dbpedia.org/ontology/Monument	 monument
+lighthouse	 http://dbpedia.org/ontology/Lighthouse	 lighthouse
+event	 http://dbpedia.org/ontology/Event	 event
+activity	 http://dbpedia.org/ontology/Activity	 activity
+language	 http://dbpedia.org/ontology/Language	 language
+color	 http://dbpedia.org/ontology/Colour	 colour
+website	 http://dbpedia.org/ontology/Website	 website
+legal case	 http://dbpedia.org/ontology/LegalCase	 Legal Case
+game	 http://dbpedia.org/ontology/Game	 game
+beverage	 http://dbpedia.org/ontology/Beverage	 beverage
+military conflict	 http://dbpedia.org/ontology/MilitaryConflict	 military conflict
+weapon	 http://dbpedia.org/ontology/Weapon	 weapon
+person	 http://dbpedia.org/ontology/Person	 person
+organisation	 http://dbpedia.org/ontology/Organisation	 organisation
+company	 http://dbpedia.org/ontology/Company	 company
+political party	 http://dbpedia.org/ontology/PoliticalParty	 political party
+trade union	 http://dbpedia.org/ontology/TradeUnion	 trade union
+newspaper	 http://dbpedia.org/ontology/Newspaper	 newspaper
+magazine	 http://dbpedia.org/ontology/Magazine	 magazine
+ethnic group	 http://dbpedia.org/ontology/EthnicGroup	 ethnic group
+scientist	 http://dbpedia.org/ontology/Scientist	 scientist
+architect	 http://dbpedia.org/ontology/Architect	 architect
+journalist	 http://dbpedia.org/ontology/Journalist	 journalist
+model	 http://dbpedia.org/ontology/Model	 model
+celebrity	 http://dbpedia.org/ontology/Celebrity	 celebrity
+philosopher	 http://dbpedia.org/ontology/Philosopher	 philosopher
+politician	 http://dbpedia.org/ontology/Politician	 politician
+governor	 http://dbpedia.org/ontology/Governor	 governor
+president	 http://dbpedia.org/ontology/President	 president
+vice president	 http://dbpedia.org/ontology/VicePresident	 vice president
+monarch	 http://dbpedia.org/ontology/Monarch	 monarch
+prime minister	 http://dbpedia.org/ontology/PrimeMinister	 prime minister
+chancellor	 http://dbpedia.org/ontology/Chancellor	 chancellor
+mayor	 http://dbpedia.org/ontology/Mayor	 mayor
+senator	 http://dbpedia.org/ontology/Senator	 senator
+ambassador	 http://dbpedia.org/ontology/Ambassador	 ambassador
+cleric	 http://dbpedia.org/ontology/Cleric	 cleric
+saint	 http://dbpedia.org/ontology/Saint	 saint
+cardinal	 http://dbpedia.org/ontology/Cardinal	 cardinal
+pope	 http://dbpedia.org/ontology/Pope	 pope
+criminal	 http://dbpedia.org/ontology/Criminal	 criminal
+judge	 http://dbpedia.org/ontology/Judge	 judge
+influence	 http://dbpedia.org/ontology/influenced	 influenced
+place	 http://dbpedia.org/ontology/Place	 place
+continent	 http://dbpedia.org/ontology/Continent	 continent
+country	 http://dbpedia.org/ontology/Country	 country
+city	 http://dbpedia.org/ontology/City	 city
+town	 http://dbpedia.org/ontology/Town	 town
+village	 http://dbpedia.org/ontology/Village	 village
+body of water	 http://dbpedia.org/ontology/BodyOfWater	 body of water
+stream	 http://dbpedia.org/ontology/Stream	 stream
+river	 http://dbpedia.org/ontology/River	 river
+lake	 http://dbpedia.org/ontology/Lake	 lake
+island	 http://dbpedia.org/ontology/Island	 island
+atoll	 http://dbpedia.org/ontology/Atoll	 atoll
+mountain	 http://dbpedia.org/ontology/Mountain	 mountain
+mountain range	 http://dbpedia.org/ontology/MountainRange	 mountain range
+mountain pass	 http://dbpedia.org/ontology/MountainPass	 mountain pass
+cave	 http://dbpedia.org/ontology/Cave	 cave
+canal	 http://dbpedia.org/ontology/Canal	 canal
+valley	 http://dbpedia.org/ontology/Valley	 valley
+world heritage site	 http://dbpedia.org/ontology/WorldHeritageSite	 World Heritage Site
+park	 http://dbpedia.org/ontology/Park	 park
+wine region	 http://dbpedia.org/ontology/WineRegion	 wine region
+protected area	 http://dbpedia.org/ontology/ProtectedArea	 protected area
+cross	 http://dbpedia.org/ontology/crosses	 crosses
+border	 http://dbpedia.org/ontology/border	 border
+planet	 http://dbpedia.org/ontology/Planet	 planet
+lunar crater	 http://dbpedia.org/ontology/LunarCrater	 lunar crater
+rocket	 http://dbpedia.org/ontology/Rocket	 rocket
+launch pad	 http://dbpedia.org/ontology/LaunchPad	 launch pad
+spacecraft	 http://dbpedia.org/ontology/Spacecraft	 spacecraft
+space station	 http://dbpedia.org/ontology/SpaceStation	 space station
+space shuttle	 http://dbpedia.org/ontology/SpaceShuttle	 space shuttle
+space mission	 http://dbpedia.org/ontology/SpaceMission	 space mission
+astronaut	 http://dbpedia.org/ontology/Astronaut	 astronaut
+sport	 http://dbpedia.org/ontology/Sport	 sport
+sports event	 http://dbpedia.org/ontology/SportsEvent	 sports event
+wrestling event	 http://dbpedia.org/ontology/WrestlingEvent	 wrestling event
+race	 http://dbpedia.org/ontology/Race	 race
+sports manager	 http://dbpedia.org/ontology/SportsManager	 sports manager
+athlete	 http://dbpedia.org/ontology/Athlete	 athlete
+soccer player	 http://dbpedia.org/ontology/SoccerPlayer	 soccer player
+baseball player	 http://dbpedia.org/ontology/BaseballPlayer	 baseball player
+rugby player	 http://dbpedia.org/ontology/RugbyPlayer	 rugby player
+basketball player	 http://dbpedia.org/ontology/BasketballPlayer	 basketball player
+golf player	 http://dbpedia.org/ontology/GolfPlayer	 golf player
+tennis player	 http://dbpedia.org/ontology/TennisPlayer	 tennis player
+badminton player	 http://dbpedia.org/ontology/BadmintonPlayer	 badminton player
+poker player	 http://dbpedia.org/ontology/PokerPlayer	 poker player
+cricketer	 http://dbpedia.org/ontology/Cricketer	 cricketer
+cyclist	 http://dbpedia.org/ontology/Cyclist	 cyclist
+wrestler	 http://dbpedia.org/ontology/Wrestler	 wrestler
+boxer	 http://dbpedia.org/ontology/Boxer	 boxer
+figure skater	 http://dbpedia.org/ontology/FigureSkater	 figure skater
+sports team	 http://dbpedia.org/ontology/SportsTeam	 sports team
+basketball team	 http://dbpedia.org/ontology/BasketballTeam	 basketball team
+soccer club	 http://dbpedia.org/ontology/SoccerClub	 soccer club
+hockey team	 http://dbpedia.org/ontology/HockeyTeam	 hockey team
+sports league	 http://dbpedia.org/ontology/SportsLeague	 sports league
+basketball league	 http://dbpedia.org/ontology/BasketballLeague	 basketball league
+baseball league	 http://dbpedia.org/ontology/BaseballLeague	 baseball league
+soccer league	 http://dbpedia.org/ontology/SoccerLeague	 soccer league
+rugby league	 http://dbpedia.org/ontology/RugbyLeague	 rugby league
+volleyball league	 http://dbpedia.org/ontology/VolleyballLeague	 volleyball league
+softball league	 http://dbpedia.org/ontology/SoftballLeague	 softball league
+lacrosse league	 http://dbpedia.org/ontology/LacrosseLeague	 lacrosse league
+handball league	 http://dbpedia.org/ontology/HandballLeague	 handball league
+cricket league	 http://dbpedia.org/ontology/CricketLeague	 cricket league
+golf league	 http://dbpedia.org/ontology/GolfLeague	 golf league
+polo league	 http://dbpedia.org/ontology/PoloLeague	 polo league
+tennis league	 http://dbpedia.org/ontology/TennisLeague	 tennis league
+boxing league	 http://dbpedia.org/ontology/BoxingLeague	 boxing league
+curling league	 http://dbpedia.org/ontology/CurlingLeague	 curling league
+cycling league	 http://dbpedia.org/ontology/CyclingLeague	 cycling league
+bowling league	 http://dbpedia.org/ontology/BowlingLeague	 bowling league
+paintball league	 http://dbpedia.org/ontology/PaintballLeague	 paintball league
+motorcycle racing league	 http://dbpedia.org/ontology/MotorcycleRacingLeague	 motorcycle racing league
+auto racing league	 http://dbpedia.org/ontology/AutoRacingLeague	 auto racing league
+car racing league	 http://dbpedia.org/ontology/AutoRacingLeague	 auto racing league
+racing league	 http://dbpedia.org/ontology/AutoRacingLeague	 auto racing league
+software	 http://dbpedia.org/ontology/Software	 software
+video game	 http://dbpedia.org/ontology/VideoGame	 video game
+device	 http://dbpedia.org/ontology/Device	 device
+power station	 http://dbpedia.org/ontology/PowerStation	 power station
+mean of transportation	 http://dbpedia.org/ontology/MeanOfTransportation	 mean of transportation
+ship	 http://dbpedia.org/ontology/Ship	 ship
+aircraft	 http://dbpedia.org/ontology/Aircraft	 aircraft
+airline	 http://dbpedia.org/ontology/Airline	 airline
+automobile	 http://dbpedia.org/ontology/Automobile	 automobile
+locomotive	 http://dbpedia.org/ontology/Locomotive	 locomotive

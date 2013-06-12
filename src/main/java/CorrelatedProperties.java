@@ -12,11 +12,13 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
+import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
 import com.hp.hpl.jena.query.QuerySolution;
 import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.sparql.engine.http.QueryEngineHTTP;
 
-public class Main
+public class CorrelatedProperties
 {
 	static int x = 0;
 	static final int RETRIES = 10;
@@ -27,6 +29,20 @@ public class Main
 
 	static File folder = new File("output");
 	static {folder.mkdir();}
+
+	@AllArgsConstructor @EqualsAndHashCode public static class Entry
+	{
+		public final String resourceURL;
+		public final String resourceLabel;
+		public final String correlatedResource;
+		public final String correlatedResourceLabel;
+		public final int frequency;				
+	}
+
+	public static void readDifferentEntries()
+	{
+		//		File f = 
+	}
 
 	static String getEndpoint()
 	{
@@ -40,23 +56,24 @@ public class Main
 		return s.substring(1, s.length()-1).replace(',','\t');		
 	}
 
-	static class PropertyInfoGetter implements Callable<String>
+	/** Determines correlated properties for a specific property and writes it to a file whose filename is determined by the last part of the property.**/
+	static class CorrelatedPropertiesCalculator implements Callable<String>
 	{
 		final String query;
 		final String property;
 		final String label;
 		final int nr;
 
-	
-		public PropertyInfoGetter(String query,String property,String label, int nr)
+		public CorrelatedPropertiesCalculator(String property,String label, int nr)
 		{
+			String query = "SELECT distinct(?p) ?l (COUNT(*) AS ?cnt) WHERE {?s <"+property+"> ?o. ?s ?p ?o. ?p rdfs:label ?l. filter(langmatches(lang(?l),\"en\")). FILTER(STRSTARTS(STR(?p), \"http://dbpedia.org/ontology/\")) } GROUP BY ?p ?l order by (?cnt)";
 			this.label=label;
 			this.property=property;
 			this.query=query;
 			this.nr=nr;
 		}
 
-		private String doIt()
+		private String writeCorrelatedProperties()
 		{
 			ResultSet rs = new QueryEngineHTTP(getEndpoint(), query).execSelect();
 			StringBuilder sb = new StringBuilder();
@@ -82,7 +99,7 @@ public class Main
 				try				
 				{
 					System.out.println(nr+"starting property "+property+" query "+query);
-					String s = doIt();
+					String s = writeCorrelatedProperties();
 					System.out.println(nr+"finished property "+property+" query "+query);
 					try(PrintWriter out = new PrintWriter(file))
 					{
@@ -105,9 +122,8 @@ public class Main
 
 	public static void main(String[] args) throws FileNotFoundException, InterruptedException, ExecutionException
 	{
-		//		String getAllObjectProperties = "select distinct(?p) ?l ?domain ?range from <http://dbpedia.org> {?p a owl:ObjectProperty. ?p rdfs:label ?l. OPTIONAL ?p rdfs:domain ?domain. OPTIONAL ?p rdfs:range ?range. filter(langmatches(lang(?l),\"en\")). FILTER(STRSTARTS(STR(?p), \"http://dbpedia.org/ontology/\"))}";
-		//		String getAllObjectProperties = "select distinct(?p) ?l from <http://dbpedia.org> {?p a owl:ObjectProperty. ?p rdfs:label ?l. filter(langmatches(lang(?l),\"en\")). FILTER(STRSTARTS(STR(?p), \"http://dbpedia.org/ontology/\"))}";
 		Map<String,String> propertyLabels = new HashMap<>();
+		ExecutorService service = Executors.newFixedThreadPool(THREADS);
 		try(Scanner in = new Scanner(new File("objectproperties.tsv")))
 		{
 			while(in.hasNextLine())
@@ -116,41 +132,6 @@ public class Main
 				propertyLabels.put(tokens[0],tokens[1]);
 			}
 		}
-		System.out.println("processing "+propertyLabels.size()+" properties");
-		//		ResultSet rsProperties = new QueryEngineHTTP(getEndpoint(), getAllObjectProperties).execSelect();
-		//		List<String> queries = new LinkedList<String>();
-		ExecutorService service = Executors.newFixedThreadPool(THREADS);
-		//		List<Future<String>> futures = new LinkedList<>();
-		Map<Future<String>,String> futures = new HashMap<>();
-		try(PrintWriter out = new PrintWriter("properties.tsv"))
-		{
-			int nr=0;
-			for(String property: propertyLabels.keySet())
-				//			while(rsProperties.hasNext())
-			{
-				//				QuerySolution qsProperties = rsProperties.next();
-				//				String property = qsProperties.getResource("?p").getURI();
-				//				String label = qsProperties.getLiteral("?l").getLexicalForm();
-				String label = propertyLabels.get(property);
-				out.println(tsv(property,label));
-				String query = "SELECT distinct(?p) ?l (COUNT(*) AS ?cnt) WHERE {?s <"+property+"> ?o. ?s ?p ?o. ?p rdfs:label ?l. filter(langmatches(lang(?l),\"en\")). FILTER(STRSTARTS(STR(?p), \"http://dbpedia.org/ontology/\")) } GROUP BY ?p ?l order by (?cnt)";		
-				//			out.println(tsv(property,label,otherProperty,otherLabel,count));
-				futures.put(service.submit(new PropertyInfoGetter(query, property, label,++nr)),query);
-			}
-		}
-
-//		for(Future<String> future: futures.keySet())
-//		{
-//			String s = future.get();
-//			if(s!=null)
-//			{
-//				System.out.print(s);
-//				try(PrintWriter out = new PrintWriter(Paths.get(folder.getPath(),"propertypairs.tsv").toFile()))
-//				{
-//					out.print(s);
-//				}
-//			}
-//		}
+		System.out.println("processing "+propertyLabels.size()+" properties");	
 	}
-
 }
