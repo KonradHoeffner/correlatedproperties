@@ -17,7 +17,12 @@ import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.sparql.engine.http.QueryEngineHTTP;
 
 /** Use alldifferent.tsv created by FromLemon and add correlated resource labels to it. Because only a small amount of them are properties (which already exist),
- * we also need to get correlated classes, where we need to find out how (because just select ?c {?s a ?c. ?s a &lt;x&gt;.} might be too simple.**/
+ * we also need to get correlated classes.
+ * If it's a property if uses the properties from output/correlatedproperties/combined/correlatedproperties.tsv. If it's a class it uses the SPARQL query:
+<pre>select distinct(?c), ?l, count(?s as ?cnt) from <http://dbpedia.org> {?s a <"+clazz+">. ?s a ?c.
+FILTER(!STRSTARTS(STR(?c), \"http://dbpedia.org/class/yago/\")).
+ ?c rdfs:label ?l. FILTER(langmatches(lang(?l),\"en\")).} order by desc(count(?s))";</pre>
+And from the results I remove all superclasses (recursively, that is transitively) from it (because superclasses would else always be in the results in DBpedia because it lists all classes for a class including superclasses).**/
 public class LemonDifferentCorrelated
 {
 	public static Set<String> resultSetToList(ResultSet rs)
