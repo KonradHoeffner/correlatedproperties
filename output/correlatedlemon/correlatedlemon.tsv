@@ -1,77 +1,94 @@
-mushroom	Fungus	species=8244	fungus=8244
-shellfish	Crustacean	species=2212
-piece of work	MusicalWork	song=5048	single=41774	album=112249
-LP	Album	work=112249	album=112249
-track	Song	work=5048	song=5048
-movie	Film	film=71715
-musician	MusicalArtist	agent=34246
-broadcasting station	RadioStation	organisation=17414	radio station=17414	agent=17414
-prize	Award	award=1506
-label	RecordLabel	record label=2236	organisation=2236	agent=2236
+mushroom	Fungus	fungus=16488	species=16488
+shellfish	Crustacean	crustacean=2212	species=4424	eukaryote=2212
+piece of work	MusicalWork	musical work=159071	album=224498	single=83548	song=10096	Eurovision song contest entry=1091
+LP	Album	album=224498	work=224498
+track	Song	song=10096	work=10096	Eurovision song contest entry=1091
+movie	Film	film=143430
+musician	MusicalArtist	musical artist=34246	agent=68492
+TV show	TelevisionShow	television show=23480
+show	TelevisionShow	television show=23480
+TV episode	TelevisionEpisode	television episode=7290
+episode	TelevisionEpisode	television episode=7290
+broadcasting station	RadioStation	radio station=34828	organisation=34828	agent=34828
+prize	Award	award=3012
+label	RecordLabel	record label=4472	organisation=4472	agent=4472
+genre	MusicGenre	music genre=714
 star	starring	person=8	voice=192	previous work=8	network=26	creator=2584	related=24	opening theme=832	composer=250	author=746	showJudge=26	story editor=12	executive producer=1204	music composer=1776	distributor=66	cinematography=334	artist=8	writer=8978	Wikipage redirect=14	based on=56	ending theme=338	narrator=1622	editing=778	format=12	director=7394	presenter=288	country=2	editor=44	developer=124	company=48	producer=7330	creative director=24	language=4	channel=4	starring=668022
 feature	starring	person=8	voice=192	previous work=8	network=26	creator=2584	related=24	opening theme=832	composer=250	author=746	showJudge=26	story editor=12	executive producer=1204	music composer=1776	distributor=66	cinematography=334	artist=8	writer=8978	Wikipage redirect=14	based on=56	ending theme=338	narrator=1622	editing=778	format=12	director=7394	presenter=288	country=2	editor=44	developer=124	company=48	producer=7330	creative director=24	language=4	channel=4	starring=668022
 win	award	home town=2	birth place=134	location=2	college=8	employer=8	award=143274	citizenship=12	education=16	notable student=2	training=38	predecessor=2	influenced by=2	notable work=38	movement=4	statistic label=14	influenced=2	Wikipage redirect=4	resting place=6	significant project=2	occupation=22	former team=20	relation=2	sport=2	team=28	league=338	board=6	military unit=8	known for=46	field=52	alma mater=94	nationality=52	doctoral advisor=2	honours=6	battle=12	residence=24	death place=44	academic advisor=2	state of origin=4	language=2	doctoral student=6
 receive	award	home town=2	birth place=134	location=2	college=8	employer=8	award=143274	citizenship=12	education=16	notable student=2	training=38	predecessor=2	influenced by=2	notable work=38	movement=4	statistic label=14	influenced=2	Wikipage redirect=4	resting place=6	significant project=2	occupation=22	former team=20	relation=2	sport=2	team=28	league=338	board=6	military unit=8	known for=46	field=52	alma mater=94	nationality=52	doctoral advisor=2	honours=6	battle=12	residence=24	death place=44	academic advisor=2	state of origin=4	language=2	doctoral student=6
-bacillus	Bacteria	bacteria=328
-germs	Bacteria	bacteria=328
-mall	ShoppingMall	place=2086
-shopping center	ShoppingMall	place=2086
-infirmary	Hospital	place=2019	hospital=2019
-street	Road	road=17095	place=17095	infrastructure=17095
-highway	Road	road=17095	place=17095	infrastructure=17095
-route	Road	road=17095	place=17095	infrastructure=17095
-beacon	Lighthouse	lighthouse=1403	place=1403
-web page	Website	website=2605
-drink	Beverage	beverage=654
-party	PoliticalParty	political party=3311	agent=3311
-labor union	TradeUnion	agent=1454
-paper	Newspaper	work=4669	newspaper=4669
-journal	Newspaper	work=4669	newspaper=4669
-periodical	Magazine	work=3388	magazine=3388
-researcher	Scientist	scientist=12842	agent=12842
-premier	PrimeMinister	person=1466	agent=1466	prime minister=1466
-bishop	ChristianBishop	person=4108	agent=4108
-clerk	Cleric	cardinal=509	saint=2668	agent=7285	cleric=7285
-thug	Criminal	criminal=1426	agent=1426
-magistrate	Judge	judge=1536	agent=1536
+illness	Disease	disease=5521
+sickness	Disease	disease=5521
+medicine	Drug	drug=5195
+medicament	Drug	drug=5195
+pharmaceutical	Drug	drug=5195
+bacillus	Bacteria	bacteria=656
+germs	Bacteria	bacteria=656
+mall	ShoppingMall	shopping mall=2086	place=4172	architectural structure=2086
+shopping center	ShoppingMall	shopping mall=2086	place=4172	architectural structure=2086
+infirmary	Hospital	hospital=4038	place=4038	architectural structure=2019
+street	Road	road=34190	place=34190	infrastructure=34190	architectural structure=17095
+highway	Road	road=34190	place=34190	infrastructure=34190	architectural structure=17095
+route	Road	road=34190	place=34190	infrastructure=34190	architectural structure=17095
+beacon	Lighthouse	lighthouse=2806	place=2806	architectural structure=1403
+web page	Website	website=5210
+case	LegalCase	Legal Case=2333	Supreme Court of the United States case=2333
+court case	LegalCase	Legal Case=2333	Supreme Court of the United States case=2333
+law case	LegalCase	Legal Case=2333	Supreme Court of the United States case=2333
+legal matter	LegalCase	Legal Case=2333	Supreme Court of the United States case=2333
+drink	Beverage	beverage=1308
+war	MilitaryConflict	military conflict=10691
+battle	MilitaryConflict	military conflict=10691
+party	PoliticalParty	political party=6622	agent=6622
+labor union	TradeUnion	trade union=1454	agent=2908
+paper	Newspaper	newspaper=9338	work=9338	written work=4669
+journal	Newspaper	newspaper=9338	work=9338	written work=4669
+periodical	Magazine	magazine=6776	work=6776	written work=3388
+researcher	Scientist	scientist=25684	agent=25684
+premier	PrimeMinister	prime minister=2932	person=2932	agent=2932
+bishop	ChristianBishop	Christian Bishop=4108	person=8216	agent=8216
+clerk	Cleric	cleric=14570	agent=14570	saint=5336	Christian Bishop=4108	cardinal=1018
+thug	Criminal	criminal=2852	agent=2852
+magistrate	Judge	judge=3072	agent=3072
 marry	spouse	president=29	series=9	associated musical artist=4	successor=81	birth place=16	employer=2	first appearance=4	governor=8	party=1	education=4	associate=2	notable student=1	child=128	predecessor=23	chancellor=1	influenced by=3	deputy=1	spouse=22487	partner=17	vice president=2	influenced=2	Wikipage redirect=6	appointer=2	resting place=3	prime minister=7	occupation=8	relation=5	parent=14	relative=46	known for=34	associated band=2	alma mater=1	last appearance=1	residence=6	death place=18	incumbent=1
-location	Place	mountain=11613	municipality=348520	valley=117	road=17095	cave=238	city=15868	island=3191	airport=11533	volcano=781	village=92562	wine region=321	place=572728	World Heritage Site=1044	building=60514	launch pad=79	park=1454	station=20319	organisation=618	lighthouse=1403	lake=9440	museum=3148	agent=618	country=2710	stadium=7345	theatre=846	continent=12	library=618	town=37997	bridge=2996	hotel=899	Site of Special Scientific Interest=461	infrastructure=57388	hospital=2019	tunnel=249	river=24267
-nation	Country	place=2710	country=2710
-mountain chain	MountainRange	place=1691
-ridge	MountainRange	place=1691
-cavern	Cave	cave=238	place=238
-grotto	Cave	cave=238	place=238
+location	Place	place=1145456	municipality=697040	populated place=387166	village=185124	building=121028	architectural structure=119356	infrastructure=114776	town=75994	natural place=49922	river=48534	station=40638	road=34190	body of water=34008	administrative region=32733	city=31736	stream=24552	route of transportation=23852	mountain=23226	airport=23066	lake=18880	stadium=14690	protected area=6878	historic place=6426	island=6382	museum=6296	bridge=5992	country=5420	historic building=4232	hospital=4038	park=2908	lighthouse=2806	World Heritage Site=2088	shopping mall=2086	railway line=2052	hotel=1798	theatre=1692	mountain range=1691	power station=1605	volcano=1562	lunar crater=1474	public transit system=1351	organisation=1236	library=1236	agent=1236	Site of Special Scientific Interest=922	wine region=642	educational institution=618	ski area=524	tunnel=498	cave=476	restaurant=429	canal=260	valley=234	launch pad=158	road junction=109	railway tunnel=106	road tunnel=95	continent=24	waterway tunnel=18	monument=4	skyscraper=1
+nation	Country	country=5420	place=5420
+mountain chain	MountainRange	mountain range=1691	place=3382
+ridge	MountainRange	mountain range=1691	place=3382
+cavern	Cave	cave=476	place=476
+grotto	Cave	cave=476	place=476
+ski region	SkiArea	ski area=524
 traverse	crosses	picture=16	maintained by=4	owner=2	crosses=5372	located in area=62
 bridge	crosses	picture=16	maintained by=4	owner=2	crosses=5372	located in area=62
 span	crosses	picture=16	maintained by=4	owner=2	crosses=5372	located in area=62
-moon crater	LunarCrater	place=1474
-spaceship	Spacecraft	spacecraft=81
-sportsman	Athlete	cricketer=10443	rugby player=9213	cyclist=3340	basketball player=2605	boxer=2284	baseball player=17487	badminton player=404	ice hockey player=10957	agent=185126	wrestler=1787	figure skater=2371	soccer player=81438	Australian rules football player=1913	snooker player=274	tennis player=2685	athlete=185126
-player	IceHockeyPlayer	person=10957	ice hockey player=10957	agent=10957
-player	AmericanFootballPlayer	person=11297	agent=11297	athlete=11297
-player	GridironFootballPlayer	person=18232	agent=18232
-racer	FormulaOneRacer	person=845	agent=845
-NASCAR driver	NascarDriver	person=751	agent=751
-team	SportsTeam	agent=16632
-soccer team	SoccerClub	organisation=15727	agent=15727
-team	AmericanFootballTeam	organisation=3	agent=3
-league	SportsLeague	rugby league=126	agent=1402
-league	IceHockeyLeague	organisation=189	agent=189
-league	FieldHockeyLeague	organisation=20	agent=20
-league	InlineHockeyLeague	organisation=18	agent=18
-league	AmericanFootballLeague	organisation=69	agent=69
-league	MixedMartialArtsLeague	organisation=1	agent=1
-MMA league	MixedMartialArtsLeague	organisation=1	agent=1
-league	MixedMartialArtsLeague	organisation=1	agent=1
-piece of software	Software	software=27947	video game=18344
-electricity station	PowerStation	place=1605
-generating plant	PowerStation	place=1605
-generating station	PowerStation	place=1605
-power plant	PowerStation	place=1605
-boat	Ship	ship=51128
-airplane	Aircraft	aircraft=8329
-plane	Aircraft	aircraft=8329
-auto	Automobile	automobile=7486
-car	Automobile	automobile=7486
-vehicle	Automobile	automobile=7486
-engine	Locomotive	locomotive=2655
+moon crater	LunarCrater	lunar crater=1474	place=2948
+spaceship	Spacecraft	spacecraft=162
+sportsman	Athlete	athlete=370252	agent=370252	soccer player=162876	baseball player=34974	ice hockey player=21914	cricketer=20886	rugby player=18426	gridiron football player=18232	american football player=11297	cyclist=6680	tennis player=5370	basketball player=5210	figure skater=4742	boxer=4568	Australian rules football player=3826	wrestler=3574	Gaelic games player=2701	martial artist=2645	golf player=2509	Formula One racer=845	badminton player=808	nascar driver=751	national collegiate athletic association athlete=555	snooker player=548	snooker world champion=24
+player	IceHockeyPlayer	ice hockey player=21914	person=21914	agent=21914
+player	AmericanFootballPlayer	american football player=11297	person=22594	agent=22594	athlete=22594
+player	GridironFootballPlayer	gridiron football player=18232	person=36464	agent=36464	american football player=11297
+racer	FormulaOneRacer	Formula One racer=845	person=1690	agent=1690
+NASCAR driver	NascarDriver	nascar driver=751	person=1502	agent=1502
+team	SportsTeam	sports team=16632	agent=33264	soccer club=15727	basketball team=742	speedway team=79	hockey team=61	canadian football team=20	american football team=3
+soccer team	SoccerClub	soccer club=15727	organisation=31454	agent=31454
+team	AmericanFootballTeam	american football team=3	organisation=6	agent=6
+league	SportsLeague	sports league=1402	agent=2804	basketball league=275	rugby league=252	ice hockey league=189	baseball league=176	soccer league=169	american football league=69	volleyball league=52	motorcycle racing league=22	field hockey league=20	inline hockey league=18	lacrosse league=18	softball league=17	handball league=15	auto racing league=12	golf league=9	cricket league=9	polo league=8	tennis league=6	speedway league=5	videogames league=5	canadian football league=4	australian football league=4	mixed martial arts league=1
+league	IceHockeyLeague	ice hockey league=189	organisation=378	agent=378
+league	FieldHockeyLeague	field hockey league=20	organisation=40	agent=40
+league	InlineHockeyLeague	inline hockey league=18	organisation=36	agent=36
+league	AmericanFootballLeague	american football league=69	organisation=138	agent=138
+league	MixedMartialArtsLeague	mixed martial arts league=1	organisation=2	agent=2
+MMA league	MixedMartialArtsLeague	mixed martial arts league=1	organisation=2	agent=2
+league	MixedMartialArtsLeague	mixed martial arts league=1	organisation=2	agent=2
+piece of software	Software	software=55894	video game=36688
+electricity station	PowerStation	power station=1605	place=3210	architectural structure=1605
+generating plant	PowerStation	power station=1605	place=3210	architectural structure=1605
+generating station	PowerStation	power station=1605	place=3210	architectural structure=1605
+power plant	PowerStation	power station=1605	place=3210	architectural structure=1605
+boat	Ship	ship=102256
+airplane	Aircraft	aircraft=16658
+plane	Aircraft	aircraft=16658
+auto	Automobile	automobile=14972
+car	Automobile	automobile=14972
+vehicle	Automobile	automobile=14972
+engine	Locomotive	locomotive=5310

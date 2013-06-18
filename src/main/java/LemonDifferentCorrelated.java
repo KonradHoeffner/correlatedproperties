@@ -9,6 +9,8 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
@@ -56,39 +58,57 @@ public class LemonDifferentCorrelated
 		return superClasses;
 	}
 
-	public static Map<String,Integer> getCorrelatedClassLabels(String clazz)
+	static String labelFreqSummarize(String label,int frequency)
 	{
+		return label+"="+frequency;
+	}
+	
+//	public static Map<String,Integer> getCorrelatedClassLabels(String clazz)
+	public static List<String> getCorrelatedClassLabels(String clazz)
+	{
+		List<String> x = new LinkedList<>();
 		if(!clazz.startsWith("http://")) clazz=Defaults.DBO+clazz;
 		Set<String> superClasses = superClassesOf(clazz);
-		Map<String,Integer> clazzes = new HashMap<String,Integer>();
+//		Map<String,Integer> clazzes = new HashMap<String,Integer>();
 		// no yago, because it's class hierarchy is too flat, we would get too many useless low frequency results 
-		String query = "select distinct(?c), ?l, count(?s as ?cnt) from <"+Defaults.graph+"> {?s a <"+clazz+">. ?s a ?c.  FILTER(!STRSTARTS(STR(?c), \"http://dbpedia.org/class/yago/\")). ?c rdfs:label ?l. FILTER(langmatches(lang(?l),\"en\")).} order by desc(count(?s))";
+		String query = "select distinct(?c), ?l, count(?s) as ?cnt {?s a <"+clazz+">. ?s a ?c.  FILTER(!STRSTARTS(STR(?c), \"http://dbpedia.org/class/yago/\")). ?c rdfs:label ?l. FILTER(langmatches(lang(?l),\"en\")).} order by desc(count(?s))";
 //		System.out.println(query);
 		ResultSet rs = new QueryEngineHTTP(Defaults.endpoint, query).execSelect();
-//		int maxFrequency = 0;
+		int classFrequency = 0;
+		String classLabel = null;
+		boolean empty = true;
 		while(rs.hasNext())
 		{
+			empty=false;
 			QuerySolution qs = rs.next();
 			String correlatedClazz = qs.get("?c").asResource().getURI();
 			String correlatedClassLabel = qs.get("?l").asLiteral().getLexicalForm();
 			if(superClasses.contains(correlatedClazz)) {continue;}
 //			for(Iterator<String> it = qs.varNames();it.hasNext();) System.out.println(it.next());
-			// bug? cnt gets returned as "callret-1
-			int frequency = qs.get("?callret-2").asLiteral().getInt();
-//			if(clazz.equals(correlatedClazz))
-//			{
-////				maxFrequency=frequency; // max occurrences with itself
-//				continue;
-//			}
-			clazzes.put(correlatedClassLabel, frequency);
+			int frequency = qs.get("?cnt").asLiteral().getInt();
+			// todo: label from the resource itself should come first
+			if(clazz.equals(correlatedClazz))
+			{
+				classFrequency=frequency; // max occurrences with itself
+				classLabel = correlatedClassLabel;
+				continue;
+			}
+			x.add(labelFreqSummarize(correlatedClassLabel, frequency));
+//			clazzes.put(correlatedClassLabel, frequency);
 		}
-
-		return clazzes;
+		// ensure that the classes label and frequency is always in the first position
+		if(classLabel!=null)
+		{
+			x.add(0, labelFreqSummarize(classLabel, classFrequency));
+		} else if(!empty) throw new RuntimeException(clazz+": "+query);
+		return x;
+//		return clazzes;
 	}
 
 	public static void main(String[] args) throws FileNotFoundException
 	{
 		Map<String,Map<String,Integer>> correlatedPropertyLabelFrequencies = new HashMap<>();
+		Map<String,String> propertyLabels = new HashMap<>();
 
 		try(Scanner in = new Scanner(new File("output/correlatedproperties/combined/correlatedproperties.tsv")))
 		{
@@ -98,6 +118,8 @@ public class LemonDifferentCorrelated
 				if(line.isEmpty()) {continue;}
 				String[] tokens = line.split("\t");
 				String property = tokens[0];
+				String propertyLabel = tokens[1];
+				propertyLabels.put(property,propertyLabel);
 				int frequency = Integer.valueOf(tokens[4]); 
 				String correlatedLabel = tokens[3];
 				Map<String,Integer> labelFrequency = correlatedPropertyLabelFrequencies.get(property);
@@ -117,8 +139,7 @@ public class LemonDifferentCorrelated
 		{
 			int i=0;
 			while(in.hasNextLine())
-			{
-				
+			{				
 				String line = in.nextLine();
 				if(line.isEmpty()) {continue;}
 //				System.out.println(line);
@@ -126,19 +147,27 @@ public class LemonDifferentCorrelated
 				String keyword = tokens[0].trim();
 				String resource = tokens[1].trim();
 //				System.out.println(resource);
-				Map<String,Integer> labelFrequencies;
+//				Map<String,Integer> labelFrequencies;
+				// ugly code ahead. improve it should be used in another context.
+				Object labelFrequenciesObject=null;
 				if(Character.isLowerCase(resource.charAt(0)))
 				{
 					// it's a property
-					labelFrequencies = correlatedPropertyLabelFrequencies.get(resource);
+					Map<String,Integer> labelFrequencies = correlatedPropertyLabelFrequencies.get(resource);
+					if(labelFrequencies!=null)
+					{
+					String s = labelFrequencies.toString();
+					if(!labelFrequencies.containsKey(resource)) {s=propertyLabels.get(resource)+"=?, "+s;}
+					labelFrequenciesObject = s;
+					}
 				}
 				else if(Character.isUpperCase(resource.charAt(0)))
 				{
-					labelFrequencies = getCorrelatedClassLabels(resource);				
+					labelFrequenciesObject = getCorrelatedClassLabels(resource);				
 				}
 				else {throw new AssertionError(resource);}
-				if(labelFrequencies==null||labelFrequencies.isEmpty()) {continue;}
-				String s = CorrelatedProperties.tsv(keyword,resource,labelFrequencies.toString().replaceAll("[\\{\\}]", ""));
+				if(labelFrequenciesObject==null||labelFrequenciesObject.toString().length()<3) {System.err.println("No result for "+resource+", skipping.");continue;}
+				String s = CorrelatedProperties.tsv(keyword,resource,labelFrequenciesObject.toString().replaceAll("[\\[\\]\\{\\}]", ""));
 				System.out.println(++i+": "+s);
 				out.println(s);
 			}

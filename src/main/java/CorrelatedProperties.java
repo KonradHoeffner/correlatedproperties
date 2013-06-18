@@ -57,7 +57,8 @@ public class CorrelatedProperties
 	static String tsv(Object... x)
 	{
 		String s = Arrays.toString(x);
-		return s.substring(1, s.length()-1).replaceAll(", ","\t");		
+//		return s.substring(1, s.length()-1).replaceAll(", ","\t");		
+		return s.replaceAll("[\\[\\]\\{\\}]", "").replace(", ","\t");
 	}
 
 	/** Determines correlated properties for a specific property and writes it to a file whose filename is determined by the last part of the property.**/
