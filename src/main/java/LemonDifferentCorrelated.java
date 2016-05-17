@@ -27,6 +27,15 @@ FILTER(!STRSTARTS(STR(?c), \"http://dbpedia.org/class/yago/\")).
 And from the results I remove all superclasses (recursively, that is transitively) from it (because superclasses would else always be in the results in DBpedia because it lists all classes for a class including superclasses).**/
 public class LemonDifferentCorrelated
 {
+	static final File CORRELATED_PROPERTIES_FILE = new File("output/correlatedproperties/combined/correlatedproperties.tsv");
+
+//	static final File OUTPUT_FOLDER = new File("output/correlatedlemon");
+//	static final File OUTPUT_FILE = Paths.get(OUTPUT_FOLDER.getPath(),"correlatedlemon.tsv").toFile();
+//	static final File INPUT_FILE = Lemon.allDifferent;
+	static final File OUTPUT_FOLDER = new File("output/correlatedqald");
+	static final File OUTPUT_FILE = Paths.get(OUTPUT_FOLDER.getPath(),"correlatedqald.tsv").toFile();
+	static final File INPUT_FILE = new File("input/qaldonlylabels.tsv");
+	
 	public static Set<String> resultSetToList(ResultSet rs)
 	{
 		Set<String> list = new HashSet<String>();
@@ -67,6 +76,8 @@ public class LemonDifferentCorrelated
 	public static List<String> getCorrelatedClassLabels(String clazz)
 	{
 		List<String> x = new LinkedList<>();
+//		if(!clazz.startsWith("dbo:")) clazz=clazz.replace("dbo:","http://dbpedia.org/ontology/");
+//		else if(!clazz.startsWith("dbp:")) clazz=clazz.replace("dbp:","http://dbpedia.org/property/");else
 		if(!clazz.startsWith("http://")) clazz=Defaults.DBO+clazz;
 		Set<String> superClasses = superClassesOf(clazz);
 //		Map<String,Integer> clazzes = new HashMap<String,Integer>();
@@ -110,7 +121,7 @@ public class LemonDifferentCorrelated
 		Map<String,Map<String,Integer>> correlatedPropertyLabelFrequencies = new HashMap<>();
 		Map<String,String> propertyLabels = new HashMap<>();
 
-		try(Scanner in = new Scanner(new File("output/correlatedproperties/combined/correlatedproperties.tsv")))
+		try(Scanner in = new Scanner(CORRELATED_PROPERTIES_FILE))
 		{
 			while(in.hasNextLine())
 			{
@@ -130,12 +141,11 @@ public class LemonDifferentCorrelated
 //		System.out.println(correlatedPropertyLabelFrequencies);
 		//		Map<String,Map<String,Integer>> correlatedClassFrequencies = new HashMap<>();
 
-		File folder = new File("output/correlatedlemon");
-		folder.mkdirs();
-		File file = Paths.get(folder.getPath(),"correlatedlemon.tsv").toFile();
-		try(PrintWriter out = new PrintWriter(file))
+		OUTPUT_FOLDER.mkdirs();
+		
+		try(PrintWriter out = new PrintWriter(OUTPUT_FILE))
 		{
-		try(Scanner in = new Scanner(Lemon.allDifferent))
+		try(Scanner in = new Scanner(INPUT_FILE))
 		{
 			int i=0;
 			while(in.hasNextLine())
@@ -145,7 +155,7 @@ public class LemonDifferentCorrelated
 //				System.out.println(line);
 				String[] tokens = line.split("\t");
 				String keyword = tokens[0].trim();
-				String resource = tokens[1].trim();
+				String resource = tokens[1].trim().replace("dbo:", "");
 //				System.out.println(resource);
 //				Map<String,Integer> labelFrequencies;
 				// ugly code ahead. improve it should be used in another context.
